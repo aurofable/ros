@@ -1,0 +1,8 @@
+my_controller_name:
+    type: my_controller_pkg/MyControllerPlugin
+    joint_name: r_shoulder_pan_joint
+    pid_parameters:
+      p: 10.0
+      i: 0.0
+      d: 0.0
+      i_clamp: 0.0
