@@ -1,0 +1,13 @@
+#Created controller folder (where you are now)
+#Added it to the path
+echo $ROS_PACKAGE_PATH
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/ros/controller
+
+# Ensure that pr2 stuff is installed....
+# sudo apt-get install ros-electric-pr2
+
+#Created a package...referring to 
+# http://www.ros.org/wiki/pr2_mechanism/Tutorials/Writing%20a%20realtime%20joint%20controller
+roscreate-pkg navControllerPkg pr2_controller_interface pr2_mechanism_model pluginlib
+roscd navControllerPkg
+rosmake

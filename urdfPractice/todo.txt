@@ -1,0 +1,2 @@
+readme for interaction with model
+readme for putting model in simulation

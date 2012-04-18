@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- this launch file corresponds to robot model in ros-pkg/robot_descriptions/pr2/erratic_defs/robots for full erratic -->
+  <!-- start up wg world -->
+  <include file="$(find gazebo_worlds)/launch/wg_world.launch"/>
+
+  <!-- Create a transform sender for linking these frames. -->
+  <node name="tf_footprint_base" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 base_footprint base_link 40" />	
+
+  <arg name="model" />
+  <param name="robot_description" command="$(find xacro)/xacro.py 'car.urdf.xacro'" />
+
+ <!-- push robot_description to factory and spawn robot in gazebo -->
+ <node name="spawn_robot" pkg="gazebo" type="spawn_model"
+          args="-param robot_description
+                -urdf
+                -z 0.3
+                -model robot_description"
+          respawn="false" output="screen" />
+	  
+  <node pkg="robot_state_publisher" type="state_publisher" name="robot_state_publisher" output="screen" >
+        <param name="publish_frequency" type="double" value="50.0" />
+       <param name="tf_prefix" type="string" value="" />
+  </node>
+     
+     <!--
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find car_like_simulation)/rviz_config.vcg">
+    </node> -->
+  
+</launch>

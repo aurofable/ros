@@ -1,0 +1,15 @@
+rosmake pr2_gazebo
+roslaunch gazebo_worlds empty_world.launch
+roslaunch pr2_gazebo pr2.launch
+
+rosrun pr2_controller_manager pr2_controller_manager list
+
+
+Look at:
+http://ros.org/wiki/ROS/EnvironmentVariables#ROS_PACKAGE_PATH
+http://www.ros.org/wiki/pr2_controllers/Tutorials/Using%20the%20robot%20base%20controllers%20to%20drive%20the%20robot
+http://www.ros.org/wiki/pr2_controllers/Tutorials/Using%20the%20robot%20base%20controllers%20to%20drive%20the%20robot
+http://www.ros.org/wiki/pr2_controllers/Tutorials/Using%20the%20base%20controller%20with%20odometry%20and%20transform%20information
+http://www.ros.org/wiki/Robots/Erratic
+http://www.ros.org/wiki/move_base
+http://www.ros.org/wiki/move_base

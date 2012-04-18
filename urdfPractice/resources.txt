@@ -1,0 +1,2 @@
+http://www.ros.org/wiki/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch
+/opt/ros/electric/stacks/robot_model_tutorials/urdf_tutorial

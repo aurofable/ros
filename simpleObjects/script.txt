@@ -1,0 +1,35 @@
+rosdep install gazebo_worlds
+sudo apt-get install ros-electric-erratic-robot
+rosmake gazebo_worlds
+roslaunch erratic_description erratic_empty_world.launch
+
+
+rosrun gazebo spawn_model -file `pwd`/object.urdf -urdf -z 1 -model my_object
+rosservice call gazebo/get_world_properties
+rosservice call gazebo/get_model_properties '{model_name: my_object}'
+rosservice call gazebo/apply_body_wrench '{body_name: "my_object::my_box" , wrench: { torque: { x: -10000, y: 0 , z: 0 } }, duration: 1000000 }'
+rosservice call gazebo/clear_body_wrenches '{body_name: "my_object::my_box"}'
+rosservice call gazebo/delete_model '{model_name: my_object}'
+
+rosrun gazebo spawn_model -file `pwd`/rect.urdf -urdf -z 1 -model rect
+rosservice call gazebo/get_world_properties
+rosservice call gazebo/get_model_properties '{model_name: rect}'
+rosservice call gazebo/apply_body_wrench '{body_name: "rect::rect" , wrench: { torque: { x: -10000, y: 0 , z: 0 } }, duration: 1000000 }'
+rosservice call gazebo/clear_body_wrenches '{body_name: "rect::rect"}'
+
+rosrun gazebo spawn_model -file `pwd`/cube.urdf -urdf -z 1 -model cube
+rosservice call gazebo/get_world_properties
+rosservice call gazebo/get_model_properties '{model_name: cube}'
+rosservice call gazebo/apply_body_wrench '{body_name: "cube::cube" , wrench: { torque: { x: -10000, y: 0 , z: 0 } }, duration: 1000000 }'
+rosservice call gazebo/clear_body_wrenches '{body_name: "cube::cube"}'
+
+rosrun gazebo spawn_model -file `pwd`/ball.urdf -urdf -z 1 -model ball
+rosservice call gazebo/get_world_properties
+rosservice call gazebo/get_model_properties '{model_name: ball}'
+rosservice call gazebo/apply_body_wrench '{body_name: "ball::ball" , wrench: { torque: { x: -1000, y: 0 , z: 0 } }, duration: 1000000 }'
+rosservice call gazebo/clear_body_wrenches '{body_name: "ball::ball"}'
+
+rosservice call gazebo/delete_model '{model_name: rect}'
+rosservice call gazebo/delete_model '{model_name: cube}'
+
+rosrun erratic_teleop erratic_keyboard_teleop

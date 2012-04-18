@@ -1,0 +1,11 @@
+http://code.google.com/p/lego-nxt-car-like/source/browse/?r=31
+https://wiki.csc.calpoly.edu/491W11-HRI/browser?rev=3
+http://answers.ros.org/question/9662/linking-joints-in-urdf-andor-gazebo
+http://answers.ros.org/question/9628/moving-a-robot-in-gazebo
+http://answers.ros.org/question/9491/how-can-i-simulate-ackermann-steering-in-gazebo
+http://answers.ros.org/question/10623/how-can-i-simulate-a-car-with-ros-and-gazebo
+http://answers.ros.org/question/27/how-can-i-use-the-navigation-stack-on-a-carlike
+http://www.ros.org/wiki/sbpl_lattice_planner
+http://answers.ros.org/question/11762/path-planning-for-car-like-robots
+http://ros.org/wiki/Ackermann%20Group
+http://www.ros.org/wiki/pr2_mechanism/Tutorials/Writing%20a%20realtime%20joint%20controller
