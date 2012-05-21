@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2265/trunk/stacks/art_vehicle/art_nav/test
+END
+prc_large_obstacle.mdf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1652/trunk/stacks/art_vehicle/art_nav/test/prc_large_obstacle.mdf
+END
+test_estop.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/864/trunk/stacks/art_vehicle/art_nav/test/test_estop.py
+END
+navigator_state.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/615/trunk/stacks/art_vehicle/art_nav/test/navigator_state.py
+END
+prc_large.mdf
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/577/trunk/stacks/art_vehicle/art_nav/test/prc_large.mdf
+END
+prc_osm.mdf
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1005/trunk/stacks/art_vehicle/art_nav/test/prc_osm.mdf
+END
+test_commander.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/620/trunk/stacks/art_vehicle/art_nav/test/test_commander.py
+END
+swri_site_visit.mdf
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/484/trunk/stacks/art_vehicle/art_nav/test/swri_site_visit.mdf
+END
+utexas_explore.mdf
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2265/trunk/stacks/art_vehicle/art_nav/test/utexas_explore.mdf
+END
+digcs.mdf
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/705/trunk/stacks/art_vehicle/art_nav/test/digcs.mdf
+END
+outside_prc_gen.mdf
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/656/trunk/stacks/art_vehicle/art_nav/test/outside_prc_gen.mdf
+END

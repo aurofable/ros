@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1818/trunk/stacks/art_vehicle/art_image/calibration
+END
+center_front_calibration.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1818/trunk/stacks/art_vehicle/art_image/calibration/center_front_calibration.yaml
+END
+right_roof_calibration.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/225/trunk/stacks/art_vehicle/art_image/calibration/right_roof_calibration.yaml
+END
+left_front_calibration.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1818/trunk/stacks/art_vehicle/art_image/calibration/left_front_calibration.yaml
+END
+right_front_calibration.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1818/trunk/stacks/art_vehicle/art_image/calibration/right_front_calibration.yaml
+END

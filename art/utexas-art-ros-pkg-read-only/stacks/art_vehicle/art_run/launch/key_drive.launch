@@ -1,0 +1,14 @@
+<!-- -*- mode: XML -*- -->
+<!-- launch file for driving vehicle from keyboard
+
+     $Id: key_drive.launch 1161 2011-03-26 02:10:49Z jack.oquin $
+  -->
+
+<launch>
+
+  <!-- start pilot and servo actuators -->
+  <include file="$(find art_run)/launch/pilot_drive.launch" />
+
+  <node pkg="$(optenv TELEOP_PKG art_teleop)" type="teleop.py" name="teleop" />
+
+</launch>

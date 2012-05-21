@@ -1,0 +1,23 @@
+<package>
+  <description brief="ART vehicle common headers">
+
+     Common headers and utilities for the Austin Robot Technology
+     automomous vehicle.
+
+  </description>
+  <author>Austin Robot Technology</author>
+  <license>BSD</license>
+  <review status="experimental" notes=""/>
+  <url>http://www.ros.org/wiki/art_common</url>
+
+  <depend package="angles"/>
+  <depend package="art_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="dynamic_reconfigure"/>
+
+  <export>
+    <cpp cflags="-I${prefix}/include"/>
+  </export>
+
+</package>

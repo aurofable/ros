@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1927/trunk/stacks/art_vehicle/art_servo
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/626/trunk/stacks/art_vehicle/art_servo/manifest.xml
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/stacks/art_vehicle/art_servo/.gitignore
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/stacks/art_vehicle/art_servo/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/628/trunk/stacks/art_vehicle/art_servo/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/stacks/art_vehicle/art_servo/Makefile
+END

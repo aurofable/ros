@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2425/trunk/stacks/open_street_map/test_osm/tests
+END
+prc.osm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2413/trunk/stacks/open_street_map/test_osm/tests/prc.osm
+END
+osm_test.launch
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2425/trunk/stacks/open_street_map/test_osm/tests/osm_test.launch
+END

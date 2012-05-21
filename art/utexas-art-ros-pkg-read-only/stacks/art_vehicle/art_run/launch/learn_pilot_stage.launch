@@ -1,0 +1,22 @@
+<!-- -*- mode: XML -*- -->
+<!-- launch file for pilot with stage simulation
+
+     $Id: learn_pilot_stage.launch 1175 2011-03-28 19:00:42Z jack.oquin $
+  -->
+
+<launch>
+  <!-- global parameters (in this namespace) -->
+  <!-- define use_sim_time first to avoid races as nodes start up -->
+  <param name="use_sim_time" value="true" />
+
+  <!-- stage simulator for ART vehicle -->
+  <node pkg="simulator_art" type="artstage" name="artstage"
+        args="$(find simulator_art)/world/$(optenv WORLD learn.world)"/>
+  <node pkg="art_common" type="vehicle_static_tf" name="vehicle_static_tf"/>
+
+  <!-- Launch pilot with null servo actuators.  NOTE: this comes
+       *after* artstage has established simulated /clock time.
+  -->
+  <include file="$(find art_run)/launch/pilot_null.launch"/>
+
+</launch>

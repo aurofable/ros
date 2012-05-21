@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2266/trunk/stacks/ackermann_teleop/ackermann_hks
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2266/trunk/stacks/ackermann_teleop/ackermann_hks/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1998/trunk/stacks/ackermann_teleop/ackermann_hks/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1998/trunk/stacks/ackermann_teleop/ackermann_hks/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1998/trunk/stacks/ackermann_teleop/ackermann_hks/Makefile
+END

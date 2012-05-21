@@ -1,0 +1,53 @@
+\subsubsection usage Usage
+\verbatim
+<node name="navigator" pkg="art_nav" type="navigator">
+  <param name="blockage_timeout_secs" type="double" value="9.0" />
+  <param name="close_stopping_distance" type="double" value="15.3" />
+  <param name="desired_following_time" type="double" value="5.0" />
+  <param name="heading_change_ratio" type="double" value="0.75" />
+  <param name="initialize_distance" type="double" value="10.0" />
+  <param name="initialize_min_angle" type="double" value="0.785398163397" />
+  <param name="lane_change_secs" type="double" value="2.0" />
+  <param name="lane_width_ratio" type="double" value="0.3" />
+  <param name="lookahead_distance" type="double" value="100.0" />
+  <param name="lost_speed" type="double" value="2.0" />
+  <param name="max_creep_distance" type="double" value="4.8" />
+  <param name="max_deceleration" type="double" value="0.4" />
+  <param name="max_speed" type="double" value="15.0" />
+  <param name="max_speed_for_sharp" type="double" value="3.0" />
+  <param name="max_yaw_rate" type="double" value="0.15" />
+  <param name="min_approach_speed" type="double" value="2.0" />
+  <param name="min_curve_length" type="double" value="1.5" />
+  <param name="min_following_time" type="double" value="3.0" />
+  <param name="min_lane_steer_dist" type="double" value="7.0" />
+  <param name="min_speed_for_curves" type="double" value="3.0" />
+  <param name="min_stop_distance" type="double" value="5.0" />
+  <param name="offensive_driving" type="bool" value="False" />
+  <param name="passing_delay" type="double" value="5.0" />
+  <param name="passing_distance" type="double" value="18.3" />
+  <param name="passing_clearance_ahead" type="double" value="27.5" />
+  <param name="passing_clearance_behind" type="double" value="5.9" />
+  <param name="passing_speed" type="double" value="3.0" />
+  <param name="precedence_delay" type="double" value="10.0" />
+  <param name="real_max_yaw_rate" type="double" value="0.9" />
+  <param name="roadblock_delay" type="double" value="5.0" />
+  <param name="spot_waypoint_radius" type="double" value="0.5" />
+  <param name="spring_lookahead" type="double" value="0.0" />
+  <param name="stop_approach_speed" type="double" value="3.0" />
+  <param name="stop_creep_speed" type="double" value="1.0" />
+  <param name="stop_deceleration" type="double" value="2.0" />
+  <param name="stop_distance" type="double" value="2.0" />
+  <param name="stop_latency" type="double" value="0.0" />
+  <param name="stop_line_delay" type="double" value="1.0" />
+  <param name="turning_heading_tune" type="double" value="0.5" />
+  <param name="turning_int_tune" type="double" value="1.25" />
+  <param name="turning_latency" type="double" value="1.0" />
+  <param name="turning_offset_tune" type="double" value="0.5" />
+  <param name="uturn_speed" type="double" value="2.0" />
+  <param name="uturn_stop_heading" type="double" value="0.785398163397" />
+  <param name="uturn_threshold" type="double" value="1.0" />
+  <param name="uturn_yaw_rate" type="double" value="1.5" />
+  <param name="zone_waypoint_radius" type="double" value="1.0" />
+</node>
+\endverbatim
+

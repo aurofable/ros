@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1910/trunk/stacks/art_vehicle/art_nav/src/navigator
+END
+safety.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/462/trunk/stacks/art_vehicle/art_nav/src/navigator/safety.cc
+END
+parking.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/626/trunk/stacks/art_vehicle/art_nav/src/navigator/parking.cc
+END
+estop.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1027/trunk/stacks/art_vehicle/art_nav/src/navigator/estop.h
+END
+stop_line.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/stop_line.cc
+END
+safety.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/safety.h
+END
+parking.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/parking.h
+END
+obstacle.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1638/trunk/stacks/art_vehicle/art_nav/src/navigator/obstacle.h
+END
+fsm_road.dia
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/462/trunk/stacks/art_vehicle/art_nav/src/navigator/fsm_road.dia
+END
+course.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1856/trunk/stacks/art_vehicle/art_nav/src/navigator/course.h
+END
+NavEstopEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1027/trunk/stacks/art_vehicle/art_nav/src/navigator/NavEstopEvent.h
+END
+avoid.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/avoid.h
+END
+passing.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1641/trunk/stacks/art_vehicle/art_nav/src/navigator/passing.h
+END
+run.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/run.h
+END
+zone.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/zone.cc
+END
+stop_area.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/stop_area.cc
+END
+uturn.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1613/trunk/stacks/art_vehicle/art_nav/src/navigator/uturn.cc
+END
+zone.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/zone.h
+END
+real_zone.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/real_zone.cc
+END
+stop_area.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/stop_area.h
+END
+uturn.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/uturn.h
+END
+slow_for_curves.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/slow_for_curves.cc
+END
+slow_for_curves.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/slow_for_curves.h
+END
+road.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1639/trunk/stacks/art_vehicle/art_nav/src/navigator/road.cc
+END
+stop.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/stop.cc
+END
+evade.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/519/trunk/stacks/art_vehicle/art_nav/src/navigator/evade.h
+END
+stop.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/stop.h
+END
+road.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1639/trunk/stacks/art_vehicle/art_nav/src/navigator/road.h
+END
+do_nothing.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/do_nothing.cc
+END
+voronoi_zone.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/voronoi_zone.h
+END
+queue_mgr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1027/trunk/stacks/art_vehicle/art_nav/src/navigator/queue_mgr.cc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1639/trunk/stacks/art_vehicle/art_nav/src/navigator/CMakeLists.txt
+END
+estop.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_nav/src/navigator/estop.cc
+END
+obstacle.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1638/trunk/stacks/art_vehicle/art_nav/src/navigator/obstacle.cc
+END
+estop.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1027/trunk/stacks/art_vehicle/art_nav/src/navigator/estop.py
+END
+stop_line.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/stop_line.h
+END
+NavRoadEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/NavRoadEvent.h
+END
+course.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1856/trunk/stacks/art_vehicle/art_nav/src/navigator/course.cc
+END
+ntimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/620/trunk/stacks/art_vehicle/art_nav/src/navigator/ntimer.h
+END
+follow_lane.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1876/trunk/stacks/art_vehicle/art_nav/src/navigator/follow_lane.cc
+END
+avoid.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/avoid.cc
+END
+lane_edge.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/lane_edge.cc
+END
+follow_lane.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/follow_lane.h
+END
+passing.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1876/trunk/stacks/art_vehicle/art_nav/src/navigator/passing.cc
+END
+run.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1856/trunk/stacks/art_vehicle/art_nav/src/navigator/run.cc
+END
+follow_safely.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1910/trunk/stacks/art_vehicle/art_nav/src/navigator/follow_safely.cc
+END
+lane_edge.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/lane_edge.h
+END
+follow_safely.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/follow_safely.h
+END
+real_zone.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/real_zone.h
+END
+evade.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/519/trunk/stacks/art_vehicle/art_nav/src/navigator/evade.cc
+END
+Controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/873/trunk/stacks/art_vehicle/art_nav/src/navigator/Controller.h
+END
+voronoi_zone.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/626/trunk/stacks/art_vehicle/art_nav/src/navigator/voronoi_zone.cc
+END
+navigator_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1629/trunk/stacks/art_vehicle/art_nav/src/navigator/navigator_internal.h
+END
+navigator.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/872/trunk/stacks/art_vehicle/art_nav/src/navigator/navigator.cc
+END
+do_nothing.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/do_nothing.h
+END
+halt.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/479/trunk/stacks/art_vehicle/art_nav/src/navigator/halt.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2232/trunk/stacks/velodyne/velodyne_msgs
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2232/trunk/stacks/velodyne/velodyne_msgs/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1555/trunk/stacks/velodyne/velodyne_msgs/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/762/trunk/stacks/velodyne/velodyne_msgs/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/762/trunk/stacks/velodyne/velodyne_msgs/Makefile
+END

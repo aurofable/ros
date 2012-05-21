@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2268/trunk/stacks/velodyne/velodyne_pointcloud
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2208/trunk/stacks/velodyne/velodyne_pointcloud/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1977/trunk/stacks/velodyne/velodyne_pointcloud/mainpage.dox
+END
+nodelets.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2216/trunk/stacks/velodyne/velodyne_pointcloud/nodelets.xml
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2211/trunk/stacks/velodyne/velodyne_pointcloud/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1977/trunk/stacks/velodyne/velodyne_pointcloud/Makefile
+END

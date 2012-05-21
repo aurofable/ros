@@ -1,0 +1,37 @@
+<!-- -*- mode: XML -*- -->
+<!-- launch file for pilot with stage simulation
+
+     WORLD = base name (without prefix) of world file and RNDF
+             (default prc_large)
+     STAGE = 4, if stage-4.1.1 world file needed (otherwise omitted)
+
+     $Id: pilot_stage.launch 2252 2012-04-07 13:52:25Z jack.oquin $
+  -->
+
+<launch>
+  <!-- global parameters (in this namespace) -->
+  <!-- define use_sim_time first to avoid races as nodes start up -->
+  <param name="use_sim_time" value="true" />
+  <param name="rndf"
+         value="$(find art_map)/rndf/$(optenv WORLD prc_large).rndf"/>
+
+  <!-- stage simulator for ART vehicle -->
+  <node pkg="simulator_art" type="artstage" name="artstage"
+        args="$(find simulator_art)/world/$(optenv WORLD prc_large)$(optenv STAGE).world">
+    <rosparam
+       file="$(find simulator_art)/world/$(optenv WORLD prc_large).yaml"/>
+  </node>
+  <node pkg="simulator_art" type="obstacles" name="art_simulated_obstacles" />
+
+  <!-- static transforms -->
+  <include file="$(find art_run)/launch/static_transforms.launch"/>
+
+  <!-- start maplanes node with corresponding RNDF -->
+  <node pkg="art_map" type="maplanes" name="maplanes">
+    <param name="frame_id" value="/map" />
+  </node>
+
+  <!-- Launch pilot with null servo actuators. -->
+  <include file="$(find art_run)/launch/pilot_null.launch"/>
+
+</launch>

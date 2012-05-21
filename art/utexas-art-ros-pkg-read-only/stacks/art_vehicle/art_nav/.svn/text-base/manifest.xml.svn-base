@@ -1,0 +1,34 @@
+<package>
+  <description brief="ART vehicle navigation">
+
+     Navigation nodes for controlling the ART autonomous vehicle.
+
+     This is a port to ROS of some of the Player 2D navigation code
+     used on the vehicle for the 2007 DARPA Urban Challenge
+     competition.
+
+  </description>
+  <author>Austin Robot Technology, Jack O'Quin</author>
+  <license>BSD</license>
+  <review status="experimental" notes=""/>
+  <url>http://www.ros.org/wiki/art_nav</url>
+
+  <depend package="angles"/>
+  <depend package="art_common"/>
+  <depend package="art_map"/>
+  <depend package="art_msgs"/>
+  <depend package="driver_base" />
+  <depend package="dynamic_reconfigure" />
+  <depend package="nav_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+
+  <export>
+    <cpp cflags="-I${prefix}/include"
+         lflags="-L${prefix}/lib -Wl,-rpath,${prefix}/lib"/>
+  </export>
+
+</package>
+
+

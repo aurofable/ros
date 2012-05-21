@@ -1,0 +1,26 @@
+<package>
+  <description brief="ART vehicle simulator">
+
+     Simulator for Austin Robot Technology autonomous vehicle.
+
+  </description>
+  <author>Jack O'Quin</author>
+  <license>GPL</license>
+  <review status="experimental" notes=""/>
+  <url>http://www.ros.org/wiki/simulator_art</url>
+
+  <depend package="angles"/>
+  <depend package="art_common"/>
+  <depend package="art_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="pcl"/>
+  <depend package="pcl_ros"/>
+  <depend package="roscpp"/>
+  <depend package="roslib"/>
+  <depend package="sensor_msgs"/>
+  <depend package="stage"/>
+  <depend package="std_msgs"/>
+  <depend package="tf"/>
+
+</package>

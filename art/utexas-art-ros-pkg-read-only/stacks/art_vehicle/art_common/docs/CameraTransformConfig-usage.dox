@@ -1,0 +1,30 @@
+\subsubsection usage Usage
+\verbatim
+<node name="vehicle_configurable_tf" pkg="art_common" type="vehicle_configurable_tf">
+  <param name="left_front_camera_px" type="double" value="0.471" />
+  <param name="left_front_camera_py" type="double" value="0.412" />
+  <param name="left_front_camera_pz" type="double" value="2.184" />
+  <param name="left_front_camera_roll" type="double" value="0.0" />
+  <param name="left_front_camera_pitch" type="double" value="-0.017" />
+  <param name="left_front_camera_yaw" type="double" value="0.97" />
+  <param name="center_front_camera_px" type="double" value="0.548" />
+  <param name="center_front_camera_py" type="double" value="0.278" />
+  <param name="center_front_camera_pz" type="double" value="2.184" />
+  <param name="center_front_camera_roll" type="double" value="0.0" />
+  <param name="center_front_camera_pitch" type="double" value="0.025" />
+  <param name="center_front_camera_yaw" type="double" value="-0.052" />
+  <param name="right_front_camera_px" type="double" value="0.471" />
+  <param name="right_front_camera_py" type="double" value="0.144" />
+  <param name="right_front_camera_pz" type="double" value="2.184" />
+  <param name="right_front_camera_roll" type="double" value="0.0" />
+  <param name="right_front_camera_pitch" type="double" value="0.022" />
+  <param name="right_front_camera_yaw" type="double" value="-1.035" />
+  <param name="velodyne_px" type="double" value="0.393" />
+  <param name="velodyne_py" type="double" value="0.278" />
+  <param name="velodyne_pz" type="double" value="2.4" />
+  <param name="velodyne_roll" type="double" value="0.0062133721371" />
+  <param name="velodyne_pitch" type="double" value="0.0163537350912" />
+  <param name="velodyne_yaw" type="double" value="-0.02155" />
+</node>
+\endverbatim
+

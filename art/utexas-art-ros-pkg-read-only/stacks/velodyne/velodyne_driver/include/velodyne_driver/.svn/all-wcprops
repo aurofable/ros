@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2262/trunk/stacks/velodyne/velodyne_driver/include/velodyne_driver
+END
+input.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2262/trunk/stacks/velodyne/velodyne_driver/include/velodyne_driver/input.h
+END
+ring_sequence.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1959/trunk/stacks/velodyne/velodyne_driver/include/velodyne_driver/ring_sequence.h
+END

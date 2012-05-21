@@ -1,0 +1,17 @@
+<!-- -*- mode: XML -*- -->
+<!-- launch file for driving simulated vehicle with joystick
+
+     $Id: joy_stage.launch 1161 2011-03-26 02:10:49Z jack.oquin $
+  -->
+
+<launch>
+
+  <!-- start pilot and servo actuators -->
+  <include file="$(find art_run)/launch/pilot_stage.launch" />
+
+  <!-- start joystick controller (navigator not running) -->
+  <include file="$(find art_run)/launch/joystick.launch">
+    <arg name="use_navigator" value="False" />
+  </include>
+
+</launch>

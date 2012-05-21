@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2425/trunk/stacks/open_street_map/osm_cartography/scripts
+END
+osm_server
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2425/trunk/stacks/open_street_map/osm_cartography/scripts/osm_server
+END
+viz_osm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2425/trunk/stacks/open_street_map/osm_cartography/scripts/viz_osm
+END
+osm_client
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2425/trunk/stacks/open_street_map/osm_cartography/scripts/osm_client
+END

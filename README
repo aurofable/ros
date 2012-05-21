@@ -1,0 +1,11 @@
+This repository contains the work for implementing a car-like model in gazebo, using ROS.
+
+It assumes that ROS and Gazebo has been installed.
+
+The current model involves testing of the controller using Stage.
+We check if the messages can be broadcasted as planned, to the required topics.
+Additional information in in vehicle_model.cc
+
+To run a simple simulation, 
+
+$   WORLD=learn roslaunch art_run key_stage.launch

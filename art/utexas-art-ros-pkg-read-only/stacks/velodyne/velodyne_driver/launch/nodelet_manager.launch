@@ -1,0 +1,20 @@
+<!-- -*- mode: XML -*- -->
+<!-- start velodyne_driver/DriverNodelet in a nodelet manager
+
+     $Id: nodelet_manager.launch 2217 2012-03-25 17:33:36Z jack.oquin $
+  -->
+
+<launch>
+
+  <!-- start nodelet manager and load driver nodelet -->
+  <node pkg="nodelet" type="nodelet" name="velodyne_nodelet_manager"
+        args="manager" />
+  <arg name="model" default="64E" />
+  <arg name="pcap" default="" />
+  <node pkg="nodelet" type="nodelet" name="driver_nodelet"
+        args="load velodyne_driver/DriverNodelet velodyne_nodelet_manager" >
+    <param name="model" value="$(arg model)"/>
+    <param name="pcap" value="$(arg pcap)"/>
+  </node>    
+
+</launch>

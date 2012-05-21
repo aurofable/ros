@@ -1,0 +1,65 @@
+Installing and configuring Ubuntu Karmic (64-bit) on the car:
+
+
+TODO:
+
+* fix simulator_art on Karmic
+
+* fix libQGLViewer 64-bit build for dingo
+
+
+OPTIONAL:
+
+* install stage? (maybe better not, because of ROS)
+
+
+DONE:
+
+* apt-get install:
+
+  git-core
+  libqt4-dev
+  ros-boxtutle-base
+  ros-boxtutle-image-transport-plugins
+  scons
+
+* svn co and build:
+
+  utexas-art-ros-pkg
+  sandbox
+  camera_drivers_experimental
+  dingo
+  player-2.12
+
+* get camera permissions working, added this to 60-art-udev.rules
+
+  KERNEL=="raw1394", GROUP="video"
+
+* add robot to video group
+
+* need more ttyS* entries. set this in /etc/default/grub:
+
+  GRUB_CMDLINE_LINUX="8250.nr_uarts=8"
+
+* UDEV symlinks not being set.
+
+  change KERNEL= syntax to KERNEL== in 60-art-udev.rules
+
+* eliminate "error: biosdisk read" on boot
+
+  Ubuntu Bug #396564 for grub2
+  Workaround: disable (nonexistent) floppy drive in BIOS
+  (speeds up the boot slightly)
+
+* set ROS_PARALLEL_JOBS to -j4
+
+* figure out how to rotate camera images 180 degrees
+
+  Don did it mechanically
+
+* roslaunch art_run drive_pilot.launch
+
+* get cameras working under ROS
+
+  Had to install libraw1394-dev package to eliminate libdc1394v2
+  segfault.

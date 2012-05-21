@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1751/trunk/stacks/art_vehicle/art_pilot/src/pilot
+END
+speed.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_pilot/src/pilot/speed.cc
+END
+plot_speed.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/633/trunk/stacks/art_vehicle/art_pilot/src/pilot/plot_speed.py
+END
+speed.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_pilot/src/pilot/speed.h
+END
+accel.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_pilot/src/pilot/accel.h
+END
+learned_controller.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1751/trunk/stacks/art_vehicle/art_pilot/src/pilot/learned_controller.cc
+END
+learned_controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_pilot/src/pilot/learned_controller.h
+END
+accel_plan.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1541/trunk/stacks/art_vehicle/art_pilot/src/pilot/accel_plan.cc
+END
+alloc_accel.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_pilot/src/pilot/alloc_accel.cc
+END
+device_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_pilot/src/pilot/device_interface.h
+END
+accel_example.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1541/trunk/stacks/art_vehicle/art_pilot/src/pilot/accel_example.cc
+END
+device_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_pilot/src/pilot/device_impl.h
+END
+accel_plan.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_pilot/src/pilot/accel_plan.h
+END
+accel_example.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_pilot/src/pilot/accel_example.h
+END
+pilot.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1547/trunk/stacks/art_vehicle/art_pilot/src/pilot/pilot.cc
+END
+rosspeed.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1541/trunk/stacks/art_vehicle/art_pilot/src/pilot/rosspeed.py
+END
+accel_speed.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1541/trunk/stacks/art_vehicle/art_pilot/src/pilot/accel_speed.cc
+END
+accel_speed.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_pilot/src/pilot/accel_speed.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_pilot/src/pilot/CMakeLists.txt
+END
+control1400.pol
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/633/trunk/stacks/art_vehicle/art_pilot/src/pilot/control1400.pol
+END

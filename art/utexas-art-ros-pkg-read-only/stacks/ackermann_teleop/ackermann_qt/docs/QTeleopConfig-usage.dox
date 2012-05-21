@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="qteleop.py" pkg="ackermann_qt" type="qteleop.py">
+  <param name="epsilon_steering" type="double" value="1.74532925199e-05" />
+  <param name="limit_forward" type="double" value="6.0" />
+  <param name="limit_reverse" type="double" value="3.0" />
+  <param name="max_accel" type="double" value="10.0" />
+  <param name="max_steering" type="double" value="0.506145483078" />
+  <param name="min_steering" type="double" value="-0.506145483078" />
+</node>
+\endverbatim
+

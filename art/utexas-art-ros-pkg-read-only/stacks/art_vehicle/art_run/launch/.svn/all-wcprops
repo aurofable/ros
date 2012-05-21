@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2252/trunk/stacks/art_vehicle/art_run/launch
+END
+pilot_speed.launch
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_run/launch/pilot_speed.launch
+END
+digcs_auto_drive.launch
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/702/trunk/stacks/art_vehicle/art_run/launch/digcs_auto_drive.launch
+END
+pilot_stage.launch
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2252/trunk/stacks/art_vehicle/art_run/launch/pilot_stage.launch
+END
+key_stage.launch
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_run/launch/key_stage.launch
+END
+joy_auto_stage.launch
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1819/trunk/stacks/art_vehicle/art_run/launch/joy_auto_stage.launch
+END
+pilot_drive.launch
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_run/launch/pilot_drive.launch
+END
+pilot_null.launch
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_run/launch/pilot_null.launch
+END
+key_drive.launch
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_run/launch/key_drive.launch
+END
+joy_auto_drive.launch
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1819/trunk/stacks/art_vehicle/art_run/launch/joy_auto_drive.launch
+END
+digcs_pilot_stage.launch
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/706/trunk/stacks/art_vehicle/art_run/launch/digcs_pilot_stage.launch
+END
+joy_stage.launch
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_run/launch/joy_stage.launch
+END
+pilot_no_steer.launch
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_run/launch/pilot_no_steer.launch
+END
+digcs_pilot_drive.launch
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_run/launch/digcs_pilot_drive.launch
+END
+digcs_pilot_null.launch
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_run/launch/digcs_pilot_null.launch
+END
+navigator.launch
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2104/trunk/stacks/art_vehicle/art_run/launch/navigator.launch
+END
+joy_drive.launch
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_run/launch/joy_drive.launch
+END
+auto_stage.launch
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1819/trunk/stacks/art_vehicle/art_run/launch/auto_stage.launch
+END
+learn_pilot_stage.launch
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1175/trunk/stacks/art_vehicle/art_run/launch/learn_pilot_stage.launch
+END
+pilot_node.launch
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_run/launch/pilot_node.launch
+END
+configure_sensors.launch
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1997/trunk/stacks/art_vehicle/art_run/launch/configure_sensors.launch
+END
+sensory_overload.launch
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1997/trunk/stacks/art_vehicle/art_run/launch/sensory_overload.launch
+END
+joystick.launch
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1553/trunk/stacks/art_vehicle/art_run/launch/joystick.launch
+END
+rxpilot.launch
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_run/launch/rxpilot.launch
+END
+auto_drive.launch
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1819/trunk/stacks/art_vehicle/art_run/launch/auto_drive.launch
+END
+sick_lasers.launch
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/751/trunk/stacks/art_vehicle/art_run/launch/sick_lasers.launch
+END
+observers_drive.launch
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2201/trunk/stacks/art_vehicle/art_run/launch/observers_drive.launch
+END
+digcs_auto_stage.launch
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/717/trunk/stacks/art_vehicle/art_run/launch/digcs_auto_stage.launch
+END
+training_drive.launch
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_run/launch/training_drive.launch
+END
+static_transforms.launch
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/641/trunk/stacks/art_vehicle/art_run/launch/static_transforms.launch
+END

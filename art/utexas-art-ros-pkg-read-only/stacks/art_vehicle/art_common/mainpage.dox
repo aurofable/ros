@@ -1,0 +1,38 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+Headers and libraries used by the Austin Robot Technology (ART)
+autonomous vehicle.
+
+\section progapi Programming API
+
+- <art/DARPA_rules.hh> DARPA Urban Challenge rules description
+- <art/vehicle.hh> Constants for the dimensions of the ART autonomous
+  vehicle.
+
+\section commandline Command-line tools
+
+\subsection static_tf Vehicle static transforms
+
+This node broadcasts static transforms from various devices to the \b
+/vehicle frame of reference.  Some ROS components require that to be
+done about once every 10 seconds.
+
+\subsubsection static_tf_usage Usage
+
+\verbatim
+  rosrun art_common vehicle_static_tf
+\endverbatim
+
+\subsection static_tf_rosapi ROS API
+
+Node name: \b vehicle_static_tf
+
+Publishes transforms:
+
+ - from \b /front_sick to \b /vehicle frame
+ - from \b /rear_sick to \b /vehicle frame
+ - from \b /velodyne to \b /vehicle frame
+
+*/

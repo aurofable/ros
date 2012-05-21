@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2077/trunk/stacks/art_vehicle/art_image
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2077/trunk/stacks/art_vehicle/art_image/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/31/trunk/stacks/art_vehicle/art_image/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2077/trunk/stacks/art_vehicle/art_image/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2077/trunk/stacks/art_vehicle/art_image/Makefile
+END

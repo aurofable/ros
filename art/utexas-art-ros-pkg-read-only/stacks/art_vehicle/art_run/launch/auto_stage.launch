@@ -1,0 +1,29 @@
+<!-- -*- mode: XML -*- -->
+<!-- Launch file for driving simulated vehicle autonomously using
+     commander and navigator nodes.
+
+     WORLD = base name (without prefix) of world file, MDF and RNDF
+             (default prc_large)
+
+     $Id: auto_stage.launch 1819 2011-10-10 21:39:16Z austinrobot $
+  -->
+
+<launch>
+
+  <!-- start pilot and servo actuators -->
+  <include file="$(find art_run)/launch/pilot_stage.launch" />
+
+  <!-- start navigator and observers -->
+  <include file="$(find art_run)/launch/navigator.launch" />
+
+  <!-- start commander, tell it to enter Run mode -->
+  <node pkg="art_nav" type="commander" name="commander" >
+    <param name="mdf"
+           value="$(find art_nav)/test/$(optenv WORLD prc_large).mdf"/>
+    <param name="start_run" value="true" />
+  </node>
+
+  <!-- run E-stop control GUI -->
+  <node pkg="art_nav" type="estop.py" name="estop_control" />
+
+</launch>

@@ -1,0 +1,28 @@
+<package>
+  <description brief="Applanix POS-LV driver">
+
+     ROS driver for the Applanix Position and Orientation System for
+     Land Vehicles (POS-LV).
+
+  </description>
+  <author>Jack O'Quin, Patrick Beeson, Alberto Alonso</author>
+  <license>BSD</license>
+  <review status="experimental" notes=""/>
+  <url>http://www.ros.org/wiki/applanix</url>
+
+  <depend package="angles"/>
+  <depend package="art_common"/>
+  <depend package="art_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="tf"/>
+
+  <!-- declare build dependency on pcap library -->
+  <rosdep name="libpcap"/>
+
+  <export>
+    <cpp lflags="-lpcap"/>
+  </export>
+
+</package>

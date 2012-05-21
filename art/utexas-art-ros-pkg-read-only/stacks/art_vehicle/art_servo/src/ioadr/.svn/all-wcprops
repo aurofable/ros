@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1876/trunk/stacks/art_vehicle/art_servo/src/ioadr
+END
+dev8x.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1876/trunk/stacks/art_vehicle/art_servo/src/ioadr/dev8x.cc
+END
+ioadr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1876/trunk/stacks/art_vehicle/art_servo/src/ioadr/ioadr.cc
+END
+dev8x.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/stacks/art_vehicle/art_servo/src/ioadr/dev8x.h
+END
+shift.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/865/trunk/stacks/art_vehicle/art_servo/src/ioadr/shift.py
+END
+relays.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/865/trunk/stacks/art_vehicle/art_servo/src/ioadr/relays.py
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/stacks/art_vehicle/art_servo/src/ioadr/CMakeLists.txt
+END

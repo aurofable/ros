@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/863/trunk/stacks/art_vehicle/art_run/rviz
+END
+costmap_stage.vcg
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/643/trunk/stacks/art_vehicle/art_run/rviz/costmap_stage.vcg
+END
+auto_stage.vcg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/863/trunk/stacks/art_vehicle/art_run/rviz/auto_stage.vcg
+END

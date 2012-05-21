@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2228/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions
+END
+ringcolors_nodelet.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2216/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/ringcolors_nodelet.cc
+END
+transform.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2045/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/transform.cc
+END
+cloud_node.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2034/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/cloud_node.cc
+END
+transform.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2225/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/transform.h
+END
+cloud_nodelet.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2034/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/cloud_nodelet.cc
+END
+convert.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2045/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/convert.cc
+END
+transform_node.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2035/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/transform_node.cc
+END
+colors.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2228/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/colors.cc
+END
+convert.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2225/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/convert.h
+END
+colors.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2216/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/colors.h
+END
+transform_nodelet.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2035/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/transform_nodelet.cc
+END
+ringcolors_node.cc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2216/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/ringcolors_node.cc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2216/trunk/stacks/velodyne/velodyne_pointcloud/src/conversions/CMakeLists.txt
+END

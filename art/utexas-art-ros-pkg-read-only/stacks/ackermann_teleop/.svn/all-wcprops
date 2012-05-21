@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2266/trunk/stacks/ackermann_teleop
+END
+stack.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2159/trunk/stacks/ackermann_teleop/stack.xml
+END
+rosdep.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2253/trunk/stacks/ackermann_teleop/rosdep.yaml
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1996/trunk/stacks/ackermann_teleop/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1996/trunk/stacks/ackermann_teleop/Makefile
+END

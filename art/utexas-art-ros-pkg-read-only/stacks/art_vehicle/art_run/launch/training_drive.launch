@@ -1,0 +1,37 @@
+<!-- -*- mode: XML -*- -->
+
+<!-- launch file for a human driving the real vehicle in training mode
+     (for acquiring control data).  
+
+     $Id: training_drive.launch 1161 2011-03-26 02:10:49Z jack.oquin $
+-->
+
+<launch>
+  <!-- servo actuators -->
+  <node pkg="art_servo" type="brake" name="brake">
+    <param name="~port" value="/dev/brake"/>
+    <param name="~training" value="true"/>
+  </node>
+  <!-- for steering position sensor -->
+  <node pkg="art_servo" type="ioadr" name="ioadr">
+    <param name="~port" value="/dev/ioadr8x"/>
+  </node>
+  <node pkg="art_servo" type="ioadr" name="shifter">
+    <param name="~port" value="/dev/shifter"/>
+    <param name="~shifter" value="true"/>
+  </node>
+  <!-- steering driver not working (or useful in training mode
+  <node pkg="art_servo" type="steering" name="steering">
+    <param name="~port" value="/dev/steering"/>
+    <param name="~training" value="true"/>
+  </node>
+  -->
+  <node pkg="art_servo" type="throttle" name="throttle">
+    <param name="~port" value="/dev/throttle"/>
+    <param name="~training" value="true"/>
+  </node>
+
+  <!-- navigation components -->
+  <node pkg="applanix" type="odometry" name="odometry" />
+
+</launch>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2002/trunk/stacks/ackermann_msgs
+END
+stack.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2002/trunk/stacks/ackermann_msgs/stack.xml
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2002/trunk/stacks/ackermann_msgs/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2002/trunk/stacks/ackermann_msgs/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2002/trunk/stacks/ackermann_msgs/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2002/trunk/stacks/ackermann_msgs/Makefile
+END

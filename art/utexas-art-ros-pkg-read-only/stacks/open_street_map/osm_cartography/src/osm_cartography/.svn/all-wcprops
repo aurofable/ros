@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2424/trunk/stacks/open_street_map/osm_cartography/src/osm_cartography
+END
+xml_map.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2424/trunk/stacks/open_street_map/osm_cartography/src/osm_cartography/xml_map.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2318/trunk/stacks/open_street_map/osm_cartography/src/osm_cartography/__init__.py
+END
+geo_map.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2392/trunk/stacks/open_street_map/osm_cartography/src/osm_cartography/geo_map.py
+END

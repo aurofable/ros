@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1893/trunk/stacks/art_vehicle/art_observers/src/nodes
+END
+points_on_road.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1893/trunk/stacks/art_vehicle/art_observers/src/nodes/points_on_road.cc
+END
+lane_observations.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1893/trunk/stacks/art_vehicle/art_observers/src/nodes/lane_observations.cc
+END
+observers_node.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1743/trunk/stacks/art_vehicle/art_observers/src/nodes/observers_node.cc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1860/trunk/stacks/art_vehicle/art_observers/src/nodes/CMakeLists.txt
+END

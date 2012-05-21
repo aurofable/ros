@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2263/trunk/stacks/velodyne/velodyne_pointcloud/launch
+END
+cloud_nodelet.launch
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2034/trunk/stacks/velodyne/velodyne_pointcloud/launch/cloud_nodelet.launch
+END
+transform_nodelet.launch
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2035/trunk/stacks/velodyne/velodyne_pointcloud/launch/transform_nodelet.launch
+END
+32e_points.launch
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2263/trunk/stacks/velodyne/velodyne_pointcloud/launch/32e_points.launch
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2125/trunk/stacks/art_vehicle/art_map/src/node
+END
+rndf_lanes.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/549/trunk/stacks/art_vehicle/art_map/src/node/rndf_lanes.cc
+END
+getpoints.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1043/trunk/stacks/art_vehicle/art_map/src/node/getpoints.cc
+END
+test_lanes.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/675/trunk/stacks/art_vehicle/art_map/src/node/test_lanes.cc
+END
+pointsToRNDF.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1043/trunk/stacks/art_vehicle/art_map/src/node/pointsToRNDF.rb
+END
+mapl.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2125/trunk/stacks/art_vehicle/art_map/src/node/mapl.cc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1043/trunk/stacks/art_vehicle/art_map/src/node/CMakeLists.txt
+END

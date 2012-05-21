@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1988/trunk/stacks/art_vehicle/art_pilot
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1988/trunk/stacks/art_vehicle/art_pilot/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_pilot/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/633/trunk/stacks/art_vehicle/art_pilot/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/633/trunk/stacks/art_vehicle/art_pilot/Makefile
+END

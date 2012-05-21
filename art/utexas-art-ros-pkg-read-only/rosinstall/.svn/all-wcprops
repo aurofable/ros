@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/1937/trunk/rosinstall
+END
+marvin.rosinstall
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1937/trunk/rosinstall/marvin.rosinstall
+END
+utexas-art.rosinstall
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/922/trunk/rosinstall/utexas-art.rosinstall
+END
+sandbox.rosinstall
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1937/trunk/rosinstall/sandbox.rosinstall
+END
+release.rosinstall
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/922/trunk/rosinstall/release.rosinstall
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1909/trunk/stacks/art_vehicle/art_observers/include/art_observers
+END
+QuadrilateralOps.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1681/trunk/stacks/art_vehicle/art_observers/include/art_observers/QuadrilateralOps.h
+END
+lane_observations.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1854/trunk/stacks/art_vehicle/art_observers/include/art_observers/lane_observations.h
+END
+nearest_backward.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1866/trunk/stacks/art_vehicle/art_observers/include/art_observers/nearest_backward.h
+END
+ObserversConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1909/trunk/stacks/art_vehicle/art_observers/include/art_observers/ObserversConfig.h
+END
+adjacent_left.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1866/trunk/stacks/art_vehicle/art_observers/include/art_observers/adjacent_left.h
+END
+filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1649/trunk/stacks/art_vehicle/art_observers/include/art_observers/filter.h
+END
+nearest_forward.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1866/trunk/stacks/art_vehicle/art_observers/include/art_observers/nearest_forward.h
+END
+adjacent_right.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1866/trunk/stacks/art_vehicle/art_observers/include/art_observers/adjacent_right.h
+END
+observer.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1909/trunk/stacks/art_vehicle/art_observers/include/art_observers/observer.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1909/trunk/stacks/art_vehicle/art_observers
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1860/trunk/stacks/art_vehicle/art_observers/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1619/trunk/stacks/art_vehicle/art_observers/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1860/trunk/stacks/art_vehicle/art_observers/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1619/trunk/stacks/art_vehicle/art_observers/Makefile
+END

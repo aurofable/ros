@@ -1,0 +1,19 @@
+<Stack>
+    <description brief="art_experimental">
+        Experimental ROS packages for the Austin Robot Technology
+        autonomous vehicle.  Not yet ready for external use.
+    </description>
+    <author>Maintained by Jack O'Quin</author>
+    <license>BSD</license>  
+    <review status="unreviewed" notes=""/>
+    <url>http://ros.org/wiki/art_experimental</url>
+    <depend stack="art_vehicle" /> <!-- art_servo, art_nav, applanix, art_common -->
+    <depend stack="common_msgs" /> <!-- nav_msgs, geometry_msgs, sensor_msgs -->
+    <depend stack="driver_common" /> <!-- dynamic_reconfigure -->
+    <depend stack="geometry" /> <!-- tf, angles -->
+    <depend stack="image_common" /> <!-- image_transport -->
+    <depend stack="joystick_drivers" /> <!-- joy -->
+    <depend stack="ros" /> <!-- std_msgs, roslib, rospy, roscpp, rosbagmigration -->
+    <depend stack="sound_drivers" /> <!-- sound_play -->
+    <depend stack="vision_opencv" /> <!-- opencv2, image_geometry, cv_bridge -->
+</stack>

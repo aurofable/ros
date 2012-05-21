@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2269/trunk/stacks/art_vehicle/art_teleop
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2269/trunk/stacks/art_vehicle/art_teleop/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_teleop/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_teleop/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_teleop/Makefile
+END

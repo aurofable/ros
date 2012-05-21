@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 69
+.build_version
+.rosgcov_files
+TAGS
+bin
+build
+deps.gv
+lib
+msg_gen
+src
+
+END

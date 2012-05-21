@@ -1,0 +1,52 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+
+Servo coordination for the ART automonous vehicle.
+
+
+\section pilot Pilot Node
+
+Speed and direction control node for the ART vehicle.
+
+\subsection pilot_examples Examples
+
+Run the ART pilot, accepting \b pilot/cmd messages.
+
+\verbatim
+  rosrun art_nav pilot
+\endverbatim
+
+\subsection pilot_rosapi Pilot ROS API
+
+Node name: \b pilot
+
+\subsubsection sub_topics Subscribes:
+
+  - \b pilot/cmd velocity and steering angle command
+  - \b vel_cmd standard ROS velocity and angle command
+  - \b odom estimate of robot position and velocity.
+  - \b brake/state brake status.
+  - \b shifter/state shifter relays status.
+  - \b steering/state steering status.
+  - \b throttle/state throttle status.
+
+\subsubsection pub_topics Publishes:
+
+  - \b brake/cmd brake commands.
+  - \b shifter/cmd shifter commands.
+  - \b steering/cmd steering commands.
+  - \b throttle/cmd throttle commands.
+
+\subsubsection params_pilot ROS parameters:
+
+Maintained using \b dynamic_reconfigure. See
+"html:ros.org/wiki/art_pilot" for a complete list. To modify
+pilot parameters at any time, run:
+
+\verbatim
+$ rosrun dynamic_reconfigure reconfigure_gui pilot
+\endverbatim
+
+*/

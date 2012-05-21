@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~max_accel" : \b [double] Maximum acceleration requested (m/s^2). min: 0.0, default: 10.0, max: 25.0
+- \b "~limit_forward" : \b [double] Maximum speed requested going forward (m/s). min: 0.0, default: 6.0, max: 25.0
+- \b "~limit_reverse" : \b [double] Maximum speed requested in reverse (m/s). min: 0.0, default: 3.0, max: 4.0
+- \b "~use_navigator" : \b [bool] Send navigator E-stop commands min: False, default: True, max: True
+

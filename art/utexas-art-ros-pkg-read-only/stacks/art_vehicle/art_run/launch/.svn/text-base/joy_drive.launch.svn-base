@@ -1,0 +1,17 @@
+<!-- -*- mode: XML -*- -->
+<!-- launch file for driving vehicle with joystick
+
+     $Id$
+  -->
+
+<launch>
+
+  <!-- start pilot and servo actuators -->
+  <include file="$(find art_run)/launch/pilot_drive.launch" />
+
+  <!-- start joystick controller (navigator not running) -->
+  <include file="$(find art_run)/launch/joystick.launch">
+    <arg name="use_navigator" value="False" />
+  </include>
+
+</launch>

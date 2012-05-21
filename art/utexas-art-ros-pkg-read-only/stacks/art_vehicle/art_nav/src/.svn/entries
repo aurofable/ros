@@ -1,0 +1,37 @@
+10
+
+dir
+2433
+http://utexas-art-ros-pkg.googlecode.com/svn/trunk/stacks/art_vehicle/art_nav/src
+http://utexas-art-ros-pkg.googlecode.com/svn
+
+
+
+2011-12-05T23:39:28.460988Z
+1910
+jack.oquin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+f2b30410-025d-11df-9f77-c71dee008b03
+
+commander
+dir
+
+lib
+dir
+
+navigator
+dir
+

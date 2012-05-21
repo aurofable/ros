@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1928/trunk/stacks/art_vehicle/art_image/param
+END
+left_front.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1781/trunk/stacks/art_vehicle/art_image/param/left_front.yaml
+END
+right_roof.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1781/trunk/stacks/art_vehicle/art_image/param/right_roof.yaml
+END
+left_front_adjusted.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1781/trunk/stacks/art_vehicle/art_image/param/left_front_adjusted.yaml
+END
+right_front.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1781/trunk/stacks/art_vehicle/art_image/param/right_front.yaml
+END
+center_front.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1928/trunk/stacks/art_vehicle/art_image/param/center_front.yaml
+END
+right_front_adjusted.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1781/trunk/stacks/art_vehicle/art_image/param/right_front_adjusted.yaml
+END

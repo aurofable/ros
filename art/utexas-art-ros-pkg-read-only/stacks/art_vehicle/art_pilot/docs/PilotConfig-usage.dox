@@ -1,0 +1,18 @@
+\subsubsection usage Usage
+\verbatim
+<node name="pilot" pkg="art_pilot" type="pilot">
+  <param name="acceleration_controller" type="int" value="0" />
+  <param name="brake_hold" type="double" value="0.7" />
+  <param name="human_steering" type="bool" value="False" />
+  <param name="limit_forward" type="double" value="14.0" />
+  <param name="limit_reverse" type="double" value="3.0" />
+  <param name="timeout" type="double" value="0.5" />
+  <param name="brake_kp" type="double" value="-0.2" />
+  <param name="brake_ki" type="double" value="-0.0002" />
+  <param name="brake_kd" type="double" value="-1.6" />
+  <param name="throttle_kp" type="double" value="0.12" />
+  <param name="throttle_ki" type="double" value="0.001" />
+  <param name="throttle_kd" type="double" value="0.54" />
+</node>
+\endverbatim
+

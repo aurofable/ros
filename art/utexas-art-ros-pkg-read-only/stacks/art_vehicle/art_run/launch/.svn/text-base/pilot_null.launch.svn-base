@@ -1,0 +1,32 @@
+<!-- -*- mode: XML -*- -->
+<!-- launch file for pilot with null servo interfaces
+
+     Pass PILOT_NODE=pilot.py in environment to run Python version.
+
+     $Id$
+  -->
+
+<launch>
+  <!-- simulated servo actuators -->
+  <node pkg="art_servo" type="brake" name="brake">
+    <param name="~port" value="/dev/null"/>
+  </node>
+  <node pkg="art_servo" type="ioadr" name="ioadr">
+    <param name="~port" value="/dev/null"/>
+  </node>
+  <node pkg="art_servo" type="ioadr" name="shifter">
+    <param name="~port" value="/dev/null"/>
+    <param name="~shifter" value="true"/>
+  </node>
+  <node pkg="art_servo" type="steering" name="steering">
+    <param name="~port" value="/dev/null"/>
+    <param name="~simulate" value="True"/>
+  </node>
+  <node pkg="art_servo" type="throttle" name="throttle">
+    <param name="~port" value="/dev/null"/>
+  </node>
+
+  <!-- navigation components -->
+  <include file="$(find art_run)/launch/pilot_node.launch" />
+
+</launch>

@@ -1,0 +1,11 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+The @b art_msgs package collects all ROS messages that are specific to
+the ART autonomous vehicle, simplifying the dependencies between
+art_vehicle stack components.
+
+No other programming interfaces or ROS nodes are provided.
+
+*/

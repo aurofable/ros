@@ -1,0 +1,18 @@
+<!-- Launch file for navigator and observers
+
+     $Id: navigator.launch 2104 2012-02-24 04:33:54Z jack.oquin $
+  -->
+
+<launch>
+
+  <!-- start observers -->
+  <node pkg="art_observers" type="observers_node" name="observers_node">
+    <remap from="obstacles" to="velodyne_obstacles" />
+  </node>
+
+  <!-- start navigator -->
+  <node pkg="art_nav" type="navigator" name="navigator" >
+    <rosparam file="$(find art_run)/params/navigator_common.yaml" />
+  </node>
+
+</launch>

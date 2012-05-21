@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2225/trunk/stacks/velodyne/velodyne_pointcloud/include/velodyne_pointcloud
+END
+point_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2037/trunk/stacks/velodyne/velodyne_pointcloud/include/velodyne_pointcloud/point_types.h
+END
+rawdata.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2134/trunk/stacks/velodyne/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.h
+END
+calibration.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2225/trunk/stacks/velodyne/velodyne_pointcloud/include/velodyne_pointcloud/calibration.h
+END

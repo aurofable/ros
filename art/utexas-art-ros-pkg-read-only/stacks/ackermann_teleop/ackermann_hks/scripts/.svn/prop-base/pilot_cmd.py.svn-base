@@ -1,0 +1,13 @@
+K 14
+svn:executable
+V 0
+
+K 12
+svn:keywords
+V 2
+Id
+K 13
+svn:mergeinfo
+V 82
+/branches/accel_pilot/stacks/art_vehicle/art_teleop/scripts/pilot_cmd.py:1194-1538
+END

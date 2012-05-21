@@ -1,0 +1,25 @@
+<package>
+  <description brief="ART vehicle observers">
+
+    Road obstacle observers for the ART autonomous vehicle.
+
+  </description>
+  <author>Michael Quinlan, Jack O'Quin, Corbyn Salisbury</author>
+  <license>BSD</license>
+  <review status="experimental" notes=""/>
+  <url>http://ros.org/wiki/art_observers</url>
+
+  <depend package="art_map"/>
+  <depend package="art_msgs"/>
+  <depend package="filters"/>
+  <depend package="pcl"/>
+  <depend package="pcl_ros"/>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="tf"/>
+  <depend package="visualization_msgs" />
+
+</package>
+
+

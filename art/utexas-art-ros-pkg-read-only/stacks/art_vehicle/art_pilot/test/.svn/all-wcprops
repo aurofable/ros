@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1543/trunk/stacks/art_vehicle/art_pilot/test
+END
+pilot_stage.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1161/trunk/stacks/art_vehicle/art_pilot/test/pilot_stage.yaml
+END
+test_accel.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1543/trunk/stacks/art_vehicle/art_pilot/test/test_accel.py
+END

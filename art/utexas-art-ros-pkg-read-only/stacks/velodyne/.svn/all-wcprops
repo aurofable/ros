@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2293/trunk/stacks/velodyne
+END
+stack.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2247/trunk/stacks/velodyne/stack.xml
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/stacks/velodyne/COPYING
+END
+rosdep.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2110/trunk/stacks/velodyne/rosdep.yaml
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2097/trunk/stacks/velodyne/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/stacks/velodyne/Makefile
+END

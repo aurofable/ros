@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1908/trunk/stacks/art_vehicle/art_observers/src/observers
+END
+QuadrilateralOps.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1839/trunk/stacks/art_vehicle/art_observers/src/observers/QuadrilateralOps.cc
+END
+nearest_backward.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1908/trunk/stacks/art_vehicle/art_observers/src/observers/nearest_backward.cc
+END
+adjacent_left.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1908/trunk/stacks/art_vehicle/art_observers/src/observers/adjacent_left.cc
+END
+nearest_forward.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1908/trunk/stacks/art_vehicle/art_observers/src/observers/nearest_forward.cc
+END
+filter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1735/trunk/stacks/art_vehicle/art_observers/src/observers/filter.cc
+END
+adjacent_right.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1908/trunk/stacks/art_vehicle/art_observers/src/observers/adjacent_right.cc
+END
+observer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1893/trunk/stacks/art_vehicle/art_observers/src/observers/observer.cc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1854/trunk/stacks/art_vehicle/art_observers/src/observers/CMakeLists.txt
+END

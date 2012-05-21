@@ -1,0 +1,29 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~left_front_camera_px" : \b [double] left front camera position x min: -3.0, default: 0.471, max: 3.0
+- \b "~left_front_camera_py" : \b [double] left front camera position y min: -3.0, default: 0.412, max: 3.0
+- \b "~left_front_camera_pz" : \b [double] left front camera position z min: -3.0, default: 2.184, max: 3.0
+- \b "~left_front_camera_roll" : \b [double] left front camera roll min: -3.14159265359, default: 0.0, max: 3.14159265359
+- \b "~left_front_camera_pitch" : \b [double] left front camera pitch min: -3.14159265359, default: -0.017, max: 3.14159265359
+- \b "~left_front_camera_yaw" : \b [double] left front camera yaw min: -3.14159265359, default: 0.97, max: 3.14159265359
+- \b "~center_front_camera_px" : \b [double] center front camera position x min: -3.0, default: 0.548, max: 3.0
+- \b "~center_front_camera_py" : \b [double] center front camera position y min: -3.0, default: 0.278, max: 3.0
+- \b "~center_front_camera_pz" : \b [double] center front camera position z min: -3.0, default: 2.184, max: 3.0
+- \b "~center_front_camera_roll" : \b [double] center front camera roll min: -3.14159265359, default: 0.0, max: 3.14159265359
+- \b "~center_front_camera_pitch" : \b [double] center front camera pitch min: -3.14159265359, default: 0.025, max: 3.14159265359
+- \b "~center_front_camera_yaw" : \b [double] center front camera yaw min: -3.14159265359, default: -0.052, max: 3.14159265359
+- \b "~right_front_camera_px" : \b [double] right front camera position x min: -3.0, default: 0.471, max: 3.0
+- \b "~right_front_camera_py" : \b [double] right front camera position y min: -3.0, default: 0.144, max: 3.0
+- \b "~right_front_camera_pz" : \b [double] right front camera position z min: -3.0, default: 2.184, max: 3.0
+- \b "~right_front_camera_roll" : \b [double] right front camera roll min: -3.14159265359, default: 0.0, max: 3.14159265359
+- \b "~right_front_camera_pitch" : \b [double] right front camera pitch min: -3.14159265359, default: 0.022, max: 3.14159265359
+- \b "~right_front_camera_yaw" : \b [double] right front camera yaw min: -3.14159265359, default: -1.035, max: 3.14159265359
+- \b "~velodyne_px" : \b [double] velodyne position x min: -3.0, default: 0.393, max: 3.0
+- \b "~velodyne_py" : \b [double] velodyne position y min: -3.0, default: 0.278, max: 3.0
+- \b "~velodyne_pz" : \b [double] velodyne position z min: -3.0, default: 2.4, max: 3.0
+- \b "~velodyne_roll" : \b [double] velodyne roll min: -3.14159265359, default: 0.0062133721371, max: 3.14159265359
+- \b "~velodyne_pitch" : \b [double] velodyne pitch min: -3.14159265359, default: 0.0163537350912, max: 3.14159265359
+- \b "~velodyne_yaw" : \b [double] velodyne yaw min: -3.14159265359, default: -0.02155, max: 3.14159265359
+

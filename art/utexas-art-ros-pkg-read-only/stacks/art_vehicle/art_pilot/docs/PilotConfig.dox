@@ -1,0 +1,17 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~acceleration_controller" : \b [int] Acceleration controller. min: -2147483648, default: 0, max: 2147483647
+- \b "~brake_hold" : \b [double] Brake hold command when stopped. min: 0.0, default: 0.7, max: 1.0
+- \b "~human_steering" : \b [bool] Allow human driver to steer (otherwise pilot steers the car). min: False, default: False, max: True
+- \b "~limit_forward" : \b [double] Speed limit going forward (m/s). min: 0.0, default: 14.0, max: 25.0
+- \b "~limit_reverse" : \b [double] Speed limit going in reverse (m/s). min: 0.0, default: 3.0, max: 4.0
+- \b "~timeout" : \b [double] Device message timeout (s). min: 0.0, default: 0.5, max: 1.0
+- \b "~brake_kp" : \b [double] Brake PID proportional gain (Kp). min: -10.0, default: -0.2, max: 0.0
+- \b "~brake_ki" : \b [double] Brake PID integral gain (Ki). min: -10.0, default: -0.0002, max: 0.0
+- \b "~brake_kd" : \b [double] Brake PID derivative gain (Kd). min: -10.0, default: -1.6, max: 0.0
+- \b "~throttle_kp" : \b [double] Throttle PID proportional gain (Kp). min: 0.0, default: 0.12, max: 10.0
+- \b "~throttle_ki" : \b [double] Throttle PID integral gain (Ki). min: 0.0, default: 0.001, max: 10.0
+- \b "~throttle_kd" : \b [double] Throttle PID derivative gain (Kd). min: 0.0, default: 0.54, max: 10.0
+

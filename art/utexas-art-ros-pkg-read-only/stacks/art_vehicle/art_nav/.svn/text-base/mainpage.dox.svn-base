@@ -1,0 +1,70 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+Navigation nodes for controlling the ART autonomous vehicle.
+
+This is a port to ROS of some of the Player 2D navigation code used on
+the vehicle for the 2007 DARPA Urban Challenge competition.
+
+
+\section commander Commander Node
+
+Global path planning for the ART autonomous vehicle.
+
+\subsection commander_rosapi Commander ROS API
+
+Node name: \b commander
+
+\subsubsection sub_topics Subscribes:
+
+  - \b navigator/state navigator node state
+
+\subsubsection pub_topics Publishes:
+
+  - \b navigator/cmd way-point orders for the navigator node
+  
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~mdf" : \b [string] Mission Definition File name
+- \b "~rndf" : \b [string] Road Network Definition File name
+
+
+\section navigator Navigator Node
+
+Local path planning for the ART autonomous vehicle.
+
+\subsection navigator_rosapi Navigator ROS API
+
+Node name: \b navigator
+
+\subsubsection sub_topics Subscribes:
+
+  - \b navigator/cmd way-point orders from the commander node
+
+\subsubsection pub_topics Publishes:
+
+  - \b navigator/state current navigator state
+  - \b pilot/cmd velocity and steering angle for the pilot node
+
+
+\section estop E-stop Control Client
+
+Graphical client for E-stop control.
+
+\subsection estop_examples Examples
+
+Run Qt script for sending speeds and steering angles to the pilot.
+
+\verbatim
+  rosrun art_nav estop.py
+\endverbatim
+
+\subsection estop_rosapi ROS API
+
+- Node name: \b estop
+- Publishes: \b navigator/cmd: navigator E-stop commands.
+
+*/

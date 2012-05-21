@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2266/trunk/stacks/ackermann_teleop/ackermann_hks/scripts
+END
+pilot_cmd.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2266/trunk/stacks/ackermann_teleop/ackermann_hks/scripts/pilot_cmd.py
+END
+hks_teleop.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2266/trunk/stacks/ackermann_teleop/ackermann_hks/scripts/hks_teleop.py
+END

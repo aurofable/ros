@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2264/trunk/stacks/ackermann_teleop/ackermann_qt
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2264/trunk/stacks/ackermann_teleop/ackermann_qt/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1996/trunk/stacks/ackermann_teleop/ackermann_qt/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1996/trunk/stacks/ackermann_teleop/ackermann_qt/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1996/trunk/stacks/ackermann_teleop/ackermann_qt/Makefile
+END

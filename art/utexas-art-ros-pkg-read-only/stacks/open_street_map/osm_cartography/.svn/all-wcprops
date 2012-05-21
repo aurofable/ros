@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2425/trunk/stacks/open_street_map/osm_cartography
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2423/trunk/stacks/open_street_map/osm_cartography/manifest.xml
+END
+rosdoc.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2384/trunk/stacks/open_street_map/osm_cartography/rosdoc.yaml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2294/trunk/stacks/open_street_map/osm_cartography/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2384/trunk/stacks/open_street_map/osm_cartography/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2294/trunk/stacks/open_street_map/osm_cartography/Makefile
+END

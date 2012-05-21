@@ -1,0 +1,37 @@
+<!-- -*- mode: XML -*- -->
+<!-- Launch file for driving real vehicle autonomously using
+     commander, navigator, observers and velodyne nodes.
+
+     WORLD = base name (without prefix) of world file, MDF and RNDF
+             (default prc_large)
+
+     $Id: observers_drive.launch 2201 2012-03-19 13:48:14Z jack.oquin $
+  -->
+
+<launch>
+
+  <!-- start pilot and servo actuators -->
+  <include file="$(find art_run)/launch/pilot_drive.launch" />
+
+  <!-- start navigator and observers -->
+  <include file="$(find art_run)/launch/navigator.launch" />
+
+  <!-- start velodyne and obstacle detection -->
+  <include file="$(find velodyne_driver)/launch/nodelet_manager.launch"/>
+  <include file="$(find velodyne_pointcloud)/launch/transform_nodelet.launch">
+    <arg name="calibration"
+         value="$(find velodyne_pointcloud)/tests/angles.config"/>
+  </include>
+  <include file="$(find velodyne_height_map)/launch/heightmap_nodelet.launch"/>
+
+  <!-- start commander -->
+  <node pkg="art_nav" type="commander" name="commander" >
+    <param name="mdf"
+           value="$(find art_nav)/test/$(optenv WORLD prc_large).mdf"/>
+  </node>
+
+  <!-- start joystick controller (navigator running) -->
+  <arg name="use_navigator" value="True" />
+  <include file="$(find art_run)/launch/joystick.launch" />
+
+</launch>

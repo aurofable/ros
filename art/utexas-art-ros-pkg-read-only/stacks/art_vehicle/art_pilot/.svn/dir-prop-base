@@ -1,0 +1,20 @@
+K 10
+svn:ignore
+V 70
+.build_version
+.rosgcov_files
+TAGS
+bin
+build
+deps.gv
+docs
+lib
+msg_gen
+
+K 13
+svn:mergeinfo
+V 188
+/branches/accel_pilot/stacks/art_vehicle/art_pilot:1194-1538
+/branches/sandbox/stacks/art_experimental/pilot_experimental:721-1117
+/branches/steering/stacks/art_vehicle/art_pilot:1040-1160
+END

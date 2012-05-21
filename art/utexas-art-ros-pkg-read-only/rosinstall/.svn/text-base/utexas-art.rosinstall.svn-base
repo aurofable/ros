@@ -1,0 +1,4 @@
+- svn:
+    uri: https://utexas-art-ros-pkg.googlecode.com/svn/trunk
+    local-name: utexas-art
+

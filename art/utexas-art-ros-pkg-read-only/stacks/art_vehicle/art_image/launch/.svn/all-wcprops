@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1781/trunk/stacks/art_vehicle/art_image/launch
+END
+get_center_front.launch
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1781/trunk/stacks/art_vehicle/art_image/launch/get_center_front.launch
+END
+theora_view.launch
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/46/trunk/stacks/art_vehicle/art_image/launch/theora_view.launch
+END
+driver_node.launch
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1781/trunk/stacks/art_vehicle/art_image/launch/driver_node.launch
+END
+get_left_front.launch
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1781/trunk/stacks/art_vehicle/art_image/launch/get_left_front.launch
+END
+get_right_front.launch
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1781/trunk/stacks/art_vehicle/art_image/launch/get_right_front.launch
+END
+view_cameras.launch
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1781/trunk/stacks/art_vehicle/art_image/launch/view_cameras.launch
+END

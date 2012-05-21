@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2269/trunk/stacks/art_vehicle
+END
+stack.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2269/trunk/stacks/art_vehicle/stack.xml
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/8/trunk/stacks/art_vehicle/COPYING
+END
+rosdep.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2253/trunk/stacks/art_vehicle/rosdep.yaml
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/stacks/art_vehicle/Makefile
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2248/trunk/stacks/art_vehicle/CMakeLists.txt
+END

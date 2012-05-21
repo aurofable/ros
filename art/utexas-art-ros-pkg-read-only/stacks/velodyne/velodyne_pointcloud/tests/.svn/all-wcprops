@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2263/trunk/stacks/velodyne/velodyne_pointcloud/tests
+END
+transform_node_hz.test
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2198/trunk/stacks/velodyne/velodyne_pointcloud/tests/transform_node_hz.test
+END
+cloud_nodelet_hz.test
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2263/trunk/stacks/velodyne/velodyne_pointcloud/tests/cloud_nodelet_hz.test
+END
+angles-calibrated.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2224/trunk/stacks/velodyne/velodyne_pointcloud/tests/angles-calibrated.yaml
+END
+test_db_without_intensities.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2207/trunk/stacks/velodyne/velodyne_pointcloud/tests/test_db_without_intensities.xml
+END
+transform_nodelet_hz.test
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2263/trunk/stacks/velodyne/velodyne_pointcloud/tests/transform_nodelet_hz.test
+END
+static_vehicle_tf.launch
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1977/trunk/stacks/velodyne/velodyne_pointcloud/tests/static_vehicle_tf.launch
+END
+32db.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2214/trunk/stacks/velodyne/velodyne_pointcloud/tests/32db.xml
+END
+cloud_node_hz.test
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2263/trunk/stacks/velodyne/velodyne_pointcloud/tests/cloud_node_hz.test
+END
+angles.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2224/trunk/stacks/velodyne/velodyne_pointcloud/tests/angles.yaml
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1977/trunk/stacks/velodyne/velodyne_pointcloud/tests/CMakeLists.txt
+END
+empty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2207/trunk/stacks/velodyne/velodyne_pointcloud/tests/empty.xml
+END

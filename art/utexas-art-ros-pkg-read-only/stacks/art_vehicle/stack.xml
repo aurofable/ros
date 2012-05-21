@@ -1,0 +1,29 @@
+<stack>
+  <description brief="ART autonomous vehicle support">
+
+    ROS support for the Austin Robot Technology autonomous vehicle.
+
+  </description>
+  <author>Maintained by Jack O'Quin</author>
+  <license>BSD,GPL</license>  
+  <review status="experimental" notes=""/>
+  <url>http://ros.org/wiki/art_vehicle</url>
+  <depend stack="camera_drivers" /> <!-- camera1394 -->
+  <depend stack="common_msgs" /> <!-- nav_msgs, sensor_msgs, geometry_msgs, visualization_msgs -->
+  <depend stack="driver_common" /> <!-- dynamic_reconfigure, driver_base -->
+  <depend stack="filters" /> <!-- filters (unified stack in Electric) -->
+  <depend stack="geometry" /> <!-- tf, angles -->
+  <depend stack="image_common" /> <!-- image_transport -->
+  <depend stack="image_pipeline" /> <!-- image_view -->
+  <depend stack="image_transport_plugins" /> <!-- compressed_image_transport, theora_image_transport -->
+  <depend stack="joystick_drivers" /> <!-- joy -->
+  <depend stack="laser_drivers" /> <!-- sicktoolbox_wrapper -->
+  <depend stack="nodelet_core" /> <!-- nodelet -->
+  <depend stack="ros" /> <!-- roslib -->
+  <depend stack="ros_comm" /> <!-- std_msgs, rosbag, rospy, roscpp, rosbagmigration -->
+  <depend stack="rx" /> <!-- rxtools -->
+  <depend stack="stage" /> <!-- stage (unified stack in Electric) -->
+  <depend stack="velodyne" /> <!-- velodyne_driver, velodyne_msgs, velodyne_pointcloud -->
+  <depend stack="velodyne_utils" /> <!-- velodyne_height_map -->
+
+</stack>

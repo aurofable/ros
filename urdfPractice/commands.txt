@@ -2,3 +2,8 @@ rosrun xacro xacro.py car.urdf.xacro > car.urdf
 roslaunch urdf_tutorial display.launch model:=car.urdf gui:=True
 roslaunch car.launch
 roslaunch urdf_tutorial xacrodisplay.launch model:=08-macroed.urdf.xacro
+
+rosrun xacro xacro.py navgroup.urdf.xacro > navgroup.urdf
+roslaunch urdf_tutorial display.launch model:=navgroup.urdf gui:=True
+roslaunch navgroup.launch model:=navgroup.urdf
+roslaunch urdf_tutorial xacrodisplay.launch model:=08-macroed.urdf.xacro

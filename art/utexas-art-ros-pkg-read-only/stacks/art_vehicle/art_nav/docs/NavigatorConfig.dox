@@ -1,0 +1,52 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~blockage_timeout_secs" : \b [double] Blockage timeout (s) min: 0.0, default: 9.0, max: 20.0
+- \b "~close_stopping_distance" : \b [double] Distance to stop from an obstacle (m) min: 5.0, default: 15.3, max: 20.0
+- \b "~desired_following_time" : \b [double] Desired following time (s) min: 0.0, default: 5.0, max: 10.0
+- \b "~heading_change_ratio" : \b [double] Heading change ratio min: 0.0, default: 0.75, max: 1.0
+- \b "~initialize_distance" : \b [double] Initialize look ahead distance (m) min: 0.0, default: 10.0, max: 30.0
+- \b "~initialize_min_angle" : \b [double] Initialize minimum angle (radians) min: 0.0, default: 0.785398163397, max: 3.14159265359
+- \b "~lane_change_secs" : \b [double] Lane change target (seconds ahead) min: 0.0, default: 2.0, max: 8.0
+- \b "~lane_width_ratio" : \b [double] Lane width ration (fraction) min: 0.01, default: 0.3, max: 1.0
+- \b "~lookahead_distance" : \b [double] Turn lookahead distance (m) min: 0.0, default: 100.0, max: 200.0
+- \b "~lost_speed" : \b [double] Speed when lost (m/s) min: 1.0, default: 2.0, max: 5.0
+- \b "~max_creep_distance" : \b [double] Distance for which to creep (m) min: 0.0, default: 4.8, max: 5.0
+- \b "~max_deceleration" : \b [double] turn max deceleration (m/s^2) min: 0.1, default: 0.4, max: 4.0
+- \b "~max_speed" : \b [double] Maximum speed ever to request (m/s) min: 0.0, default: 15.0, max: 25.0
+- \b "~max_speed_for_sharp" : \b [double] Maximum speed for sharpest possible turn (m/s) min: 1.0, default: 3.0, max: 8.0
+- \b "~max_yaw_rate" : \b [double] turn max yaw rate (radians/s) min: 0.01, default: 0.15, max: 2.0
+- \b "~min_approach_speed" : \b [double] Minimum approach speed considered dangerous (m/s) min: 0.0, default: 2.0, max: 5.0
+- \b "~min_curve_length" : \b [double] Minimum curve length for turn (m) min: 1.0, default: 1.5, max: 5.0
+- \b "~min_following_time" : \b [double] Minimum following time (s) min: 0.0, default: 3.0, max: 10.0
+- \b "~min_lane_steer_dist" : \b [double] Minimum lane steering distance (m) min: 0.0, default: 7.0, max: 16.0
+- \b "~min_speed_for_curves" : \b [double] Minimum speed when slowing for curves (m/s) min: 1.0, default: 3.0, max: 5.0
+- \b "~min_stop_distance" : \b [double] Minimum distance to begin stopping (m) min: 0.0, default: 5.0, max: 25.0
+- \b "~offensive_driving" : \b [bool] Drive aggressively (defensively if false) min: False, default: False, max: True
+- \b "~passing_delay" : \b [double] Wait time before passing (s) min: 0.0, default: 5.0, max: 10.0
+- \b "~passing_distance" : \b [double] Minimum distance for passing (m) min: 8.3, default: 18.3, max: 35.0
+- \b "~passing_clearance_ahead" : \b [double] Clearance ahead to return from passing (m) min: 22.7, default: 27.5, max: 50.0
+- \b "~passing_clearance_behind" : \b [double] Clearance behind to return from passing (m) min: 3.5, default: 5.9, max: 50.0
+- \b "~passing_speed" : \b [double] Desired speed while passing (m/s) min: 0.0, default: 3.0, max: 10.0
+- \b "~precedence_delay" : \b [double] Wait time for intersection precedence (s) min: 0.0, default: 10.0, max: 30.0
+- \b "~real_max_yaw_rate" : \b [double] Real maximum yaw rate (radians/s) min: 0.1, default: 0.9, max: 2.0
+- \b "~roadblock_delay" : \b [double] Wait time for road blockage (s) min: 0.0, default: 5.0, max: 10.0
+- \b "~spot_waypoint_radius" : \b [double] Spot waypoint radius (m) min: 0.1, default: 0.5, max: 4.0
+- \b "~spring_lookahead" : \b [double] Spring lookahead distance (m) min: 0.0, default: 0.0, max: 8.0
+- \b "~stop_approach_speed" : \b [double] Stop line approach speed (m/s) min: 1.0, default: 3.0, max: 5.0
+- \b "~stop_creep_speed" : \b [double] Speed while creeping to stop (m/s) min: 0.5, default: 1.0, max: 3.0
+- \b "~stop_deceleration" : \b [double] Desired stopping deceleration (m/s^2) min: 0.05, default: 2.0, max: 4.0
+- \b "~stop_distance" : \b [double] Desired stopping distance (m) min: 0.0, default: 2.0, max: 4.0
+- \b "~stop_latency" : \b [double] Brake latency for stopping (s) min: 0.0, default: 0.0, max: 4.0
+- \b "~stop_line_delay" : \b [double] Delay when stop line reached (s) min: 0.0, default: 1.0, max: 10.0
+- \b "~turning_heading_tune" : \b [double] yaw tuning parameter (heading) min: 0.0, default: 0.5, max: 1.0
+- \b "~turning_int_tune" : \b [double] yaw tuning parameter (integral) min: 0.0, default: 1.25, max: 4.0
+- \b "~turning_latency" : \b [double] Turning latency time (s) min: 0.0, default: 1.0, max: 4.0
+- \b "~turning_offset_tune" : \b [double] Yaw tuning parameter (offset) min: 0.0, default: 0.5, max: 1.0
+- \b "~uturn_speed" : \b [double] U-turn speed (m/s) min: 1.0, default: 2.0, max: 4.0
+- \b "~uturn_stop_heading" : \b [double] U-turn stop heading (radians) min: 0.0, default: 0.785398163397, max: 3.14159265359
+- \b "~uturn_threshold" : \b [double] U-turn threshold (m) min: 0.0, default: 1.0, max: 4.0
+- \b "~uturn_yaw_rate" : \b [double] U-turn yaw rate (radians/s) min: 0.5, default: 1.5, max: 3.0
+- \b "~zone_waypoint_radius" : \b [double] Zone waypoint radius (m) min: 0.1, default: 1.0, max: 4.0
+

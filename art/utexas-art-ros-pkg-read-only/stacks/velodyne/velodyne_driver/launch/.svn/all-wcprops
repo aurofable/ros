@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2217/trunk/stacks/velodyne/velodyne_driver/launch
+END
+nodelet_manager.launch
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2217/trunk/stacks/velodyne/velodyne_driver/launch/nodelet_manager.launch
+END

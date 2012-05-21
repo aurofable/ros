@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/620/trunk/stacks/art_vehicle/art_nav/src/commander
+END
+Path.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/435/trunk/stacks/art_vehicle/art_nav/src/commander/Path.h
+END
+command.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/615/trunk/stacks/art_vehicle/art_nav/src/commander/command.cc
+END
+command.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/615/trunk/stacks/art_vehicle/art_nav/src/commander/command.h
+END
+State.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/435/trunk/stacks/art_vehicle/art_nav/src/commander/State.h
+END
+Event.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/435/trunk/stacks/art_vehicle/art_nav/src/commander/Event.h
+END
+FSM.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/615/trunk/stacks/art_vehicle/art_nav/src/commander/FSM.cc
+END
+Blockage.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/435/trunk/stacks/art_vehicle/art_nav/src/commander/Blockage.cc
+END
+FSM.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/615/trunk/stacks/art_vehicle/art_nav/src/commander/FSM.h
+END
+ros_node.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/620/trunk/stacks/art_vehicle/art_nav/src/commander/ros_node.cc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/437/trunk/stacks/art_vehicle/art_nav/src/commander/CMakeLists.txt
+END
+Blockage.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/435/trunk/stacks/art_vehicle/art_nav/src/commander/Blockage.h
+END

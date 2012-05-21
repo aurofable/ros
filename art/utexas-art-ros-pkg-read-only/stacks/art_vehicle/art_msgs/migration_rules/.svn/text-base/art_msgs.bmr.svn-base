@@ -1,0 +1,655 @@
+class update__applanix_GpsInfo__4f5e197f8744c1a11f1c94dc6e9a77a6(MessageUpdateRule):
+	old_type = "applanix/GpsInfo"
+	old_full_text = """
+# standard ROS header, includes time stamp
+
+Header header
+
+# Latitude in degrees.  Positive is north of equator, negative is
+# south of equator.
+
+float64 latitude
+
+# Longitude in degrees.  Positive is east of prime meridian, negative
+# is west of prime meridian.
+
+float64 longitude
+
+# Altitude, in meters.  Positive is above reference (e.g., sea-level),
+# and negative is below.
+
+float64 altitude
+
+# UTM WGS84 coordinates, easting [m]
+
+float64 utm_e
+
+# UTM WGS84 coordinates, northing [m]
+
+float64 utm_n
+
+# UTM zone
+
+string zone
+
+# Horizontal dilution of position (HDOP)
+
+float64 hdop
+
+# Vertical dilution of position (VDOP)
+
+float64 vdop
+
+# Horizonal error [m]
+
+float64 err_horz
+
+# Vertical error [m]
+
+float64 err_vert
+
+# Quality of fix 0 = invalid, 1 = GPS fix, 2 = Differential GPS fix
+
+uint16 INVALID_FIX = 0
+uint16 GPS_FIX = 1
+uint16 DGPS_FIX = 2
+uint16 quality
+
+# Number of satellites in view.
+
+uint16 num_sats
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+"""
+
+	new_type = "art_msgs/GpsInfo"
+	new_full_text = """
+# GPS position message
+#
+# Probably to be replaced by a standard ROS message for Diamondback.
+
+# $Id: GpsInfo.msg 604 2010-09-22 15:50:16Z jack.oquin $
+
+# standard ROS header, includes time stamp
+Header header
+
+# Latitude in degrees.  Positive is north of equator, negative is
+# south of equator.
+float64 latitude
+
+# Longitude in degrees.  Positive is east of prime meridian, negative
+# is west of prime meridian.
+float64 longitude
+
+# Altitude, in meters.  Positive is above reference (e.g., sea-level),
+# and negative is below.
+float64 altitude
+
+# UTM WGS84 coordinates, easting [m]
+float64 utm_e
+
+# UTM WGS84 coordinates, northing [m]
+float64 utm_n
+
+# UTM zone
+string zone
+
+# Horizontal dilution of position (HDOP)
+float64 hdop
+
+# Vertical dilution of position (VDOP)
+float64 vdop
+
+# Horizonal error [m]
+float64 err_horz
+
+# Vertical error [m]
+float64 err_vert
+
+# Quality of fix 0 = invalid, 1 = GPS fix, 2 = Differential GPS fix
+uint16 INVALID_FIX = 0
+uint16 GPS_FIX = 1
+uint16 DGPS_FIX = 2
+uint16 quality
+
+# Number of satellites in view.
+uint16 num_sats
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+
+
+"""
+
+	order = 0
+	migrated_types = []
+
+	valid = True
+
+	def update(self, old_msg, new_msg):
+                # message moved, no change to any fields
+		new_msg = old_msg
+
+class update__art_nav_CarCommand__a9c426b2a11ce63f7116e941449a149d(MessageUpdateRule):
+	old_type = "art_nav/CarCommand"
+	old_full_text = """
+# car control command with timestamp
+
+Header     header
+CarControl control
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+
+================================================================================
+MSG: art_nav/CarControl
+# car control command
+
+float32 velocity                # forward velocity (m/s), negative is reverse
+float32 angle                   # steering angle (degrees)
+"""
+
+	new_type = "art_msgs/CarCommand"
+	new_full_text = """
+# car control command with timestamp
+# $Id: CarCommand.msg 615 2010-09-24 16:07:50Z jack.oquin $
+
+Header     header
+CarControl control
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+
+================================================================================
+MSG: art_msgs/CarControl
+# car control command
+# $Id: CarControl.msg 615 2010-09-24 16:07:50Z jack.oquin $
+
+float32 velocity                # forward velocity (m/s), negative is reverse
+float32 angle                   # steering angle (degrees)
+
+
+"""
+
+	order = 0
+	migrated_types = []
+
+	valid = True
+
+	def update(self, old_msg, new_msg):
+                # message moved, no change to any fields
+		new_msg = old_msg
+
+class update__art_servo_BrakeCommand__7d9e24314a55cc39669333e821a84049(MessageUpdateRule):
+	old_type = "art_servo/BrakeCommand"
+	old_full_text = """
+# ART brake controller command message
+
+Header  header
+
+# request types
+uint32 Absolute = 0    # set absolute position: 0.0 is off, 1.0 is fully on
+uint32 Relative = 1    # change relative to current setting, [-1.0 to 1.0]
+
+uint32  request                # request type
+float32 position               # requested position
+
+
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+"""
+
+	new_type = "art_msgs/BrakeCommand"
+	new_full_text = old_full_text
+	order = 0
+	migrated_types = []
+	valid = True
+
+	def update(self, old_msg, new_msg):
+                # message moved, no change to any fields
+		new_msg = old_msg
+
+class update__art_servo_BrakeState__a2cf66ca94ba3a72fab2bbf4fd458de0(MessageUpdateRule):
+	old_type = "art_servo/BrakeState"
+	old_full_text = """
+# ART brake controller state message
+
+Header  header
+
+float32 position                # fractional position
+float32 potentiometer           # potentiometer voltage
+float32 encoder                 # encoder reading
+float32 pressure                # pressure sensor
+
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+"""
+
+	new_type = "art_msgs/BrakeState"
+	new_full_text = old_full_text
+	order = 0
+	migrated_types = []
+	valid = True
+
+	def update(self, old_msg, new_msg):
+                # message moved, no change to any fields
+		new_msg = old_msg
+
+class update__art_servo_IOadrCommand__1ba0a21767ee8a4bb7c80945f20b670c(MessageUpdateRule):
+	old_type = "art_servo/IOadrCommand"
+	old_full_text = """
+# NCD IOADR8x controller command message for ART vehicle
+#
+# Sets or clears relays.  See: IOadrState for bit definitions.
+
+Header  header          # standard ROS message header
+
+uint8 relays_on         # relays to set
+uint8 relays_off        # relays to clear
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+"""
+
+	new_type = "art_msgs/IOadrCommand"
+	new_full_text = old_full_text
+	order = 0
+	migrated_types = []
+	valid = True
+
+	def update(self, old_msg, new_msg):
+		new_msg = old_msg
+
+class update__art_servo_IOadrState__990cf1675736cc78e57b4a0463dd540e(MessageUpdateRule):
+	old_type = "art_servo/IOadrState"
+	old_full_text = """
+# NCD IOADR8x controller state message for ART vehicle
+
+Header  header
+
+# constant bit values for relays and digitalB inputs
+uint8 ENABLED      =   1
+uint8 RUN          =   2
+uint8 FLASHER      =   4
+uint8 ALARM        =   8
+uint8 LASER_FRONT  =  16
+uint8 LASER_TOP    =  32
+uint8 TURN_LEFT    =  64
+uint8 TURN_RIGHT   = 128
+
+uint8   relays                  # current relays settings
+
+uint8   digitalB                # digital input B
+
+# generally, voltages[0] is the steering position sensor
+int32 N_VOLTAGES = 3            # number of analog voltages
+float32[3] voltages             # analog voltages [A, B, C]
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+"""
+
+	new_type = "art_msgs/IOadrState"
+	new_full_text = old_full_text
+	order = 0
+	migrated_types = []
+	valid = True
+
+	def update(self, old_msg, new_msg):
+		new_msg = old_msg
+
+class update__art_servo_SteeringCommand__0b28cba4463dbaf6e3e1eaa49cf68c4a(MessageUpdateRule):
+	old_type = "art_servo/SteeringCommand"
+	old_full_text = """
+# ART steering controller command message
+
+# The maximum allowed steering angle is ArtVehicle::max_steer_degrees
+# (29 degrees) in either direction, defined in the art_msgs/ArtVehicle
+# message.
+
+# The driver enforces this limit to protect the vehicle from
+# mechanical damage.  There is about a two degree safety margin
+# included in that limit.
+
+Header  header
+
+# request types
+uint32 Degrees = 0     # set absolute angle in degrees: +left, 0 center, -right
+uint32 Relative = 1    # change angle relative to current setting (degrees)
+
+uint32  request                # request type
+float32 angle                  # requested angle (degrees)
+
+
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+"""
+
+	new_type = "art_msgs/SteeringCommand"
+	new_full_text = old_full_text
+	order = 0
+	migrated_types = []
+	valid = True
+
+	def update(self, old_msg, new_msg):
+		new_msg = old_msg
+
+class update__art_servo_Shifter__dddb61d8575e01ea7857ef1b3a7b941c(MessageUpdateRule):
+	old_type = "art_servo/Shifter"
+	old_full_text = """
+# ART shifter message
+#
+# Used to both request and report gear shifts.
+
+# Our Arens Controls hardware mechanism requires holding the shift
+# relay on for one second before resetting it.  A command node must
+# request the desired gear, then wait a second before sending the
+# Reset command.  To be safe, it should check that the shift actually
+# occurred before continuing.
+
+Header  header          # standard ROS message header
+
+# gear numbers
+uint8 Reset = 0         # request reset of shifter relays
+uint8 Park = 1
+uint8 Reverse = 2
+uint8 Neutral = 3
+uint8 Drive = 4
+
+uint8 gear              # requested or reported gear number
+uint8 relays            # current relay values
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+"""
+
+	new_type = "art_msgs/Shifter"
+	new_full_text = old_full_text
+	order = 0
+	migrated_types = []
+	valid = True
+
+	def update(self, old_msg, new_msg):
+		new_msg = old_msg
+
+class update__art_servo_SteeringState__3b33a397a205d282b63057dc46d3f2ea(MessageUpdateRule):
+	old_type = "art_servo/SteeringState"
+	old_full_text = """
+# ART steering controller state message
+
+Header  header
+
+float32 angle                   # steering angle in degrees
+float32 sensor                  # steering sensor voltage
+float32 encoder                 # encoder reading
+
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+"""
+
+	new_type = "art_msgs/SteeringState"
+	new_full_text = old_full_text
+	order = 0
+	migrated_types = []
+	valid = True
+
+	def update(self, old_msg, new_msg):
+		new_msg = old_msg
+
+class update__art_servo_ThrottleCommand__7d9e24314a55cc39669333e821a84049(MessageUpdateRule):
+	old_type = "art_servo/ThrottleCommand"
+	old_full_text = """
+# ART throttle controller command message
+
+Header  header
+
+# request types
+uint32 Absolute = 0    # set absolute position: 0.0 is off, 1.0 is fully on
+uint32 Relative = 1    # change relative to current setting, [-1.0 to 1.0]
+
+uint32  request                # request type
+float32 position               # requested position
+
+
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+"""
+
+	new_type = "art_msgs/ThrottleCommand"
+	new_full_text = old_full_text
+	order = 0
+	migrated_types = []
+	valid = True
+
+	def update(self, old_msg, new_msg):
+		new_msg = old_msg
+
+class update__art_servo_ThrottleState__5b1c64434e6ebe49625631607b188cd5(MessageUpdateRule):
+	old_type = "art_servo/ThrottleState"
+	old_full_text = """
+# ART throttle controller state message
+
+Header  header
+
+float32 position                # fractional position [0, 1]
+float32 rpms                    # engine speed (rev/min)
+uint8   estop                   # emergency stop indicator
+
+# optional extra diagnostic information:
+float32 pwm                     # Pulse Width Modulation value
+float32 dstate                  # PID derivative state
+float32 istate                  # PID integral state
+
+================================================================================
+MSG: roslib/Header
+# Standard metadata for higher-level stamped data types.
+# This is generally used to communicate timestamped data 
+# in a particular coordinate frame.
+# 
+# sequence ID: consecutively increasing ID 
+uint32 seq
+#Two-integer timestamp that is expressed as:
+# * stamp.secs: seconds (stamp_secs) since epoch
+# * stamp.nsecs: nanoseconds since stamp_secs
+# time-handling sugar is provided by the client library
+time stamp
+#Frame this data is associated with
+# 0: no frame
+# 1: global frame
+string frame_id
+"""
+
+	new_type = "art_msgs/ThrottleState"
+	new_full_text = old_full_text
+	order = 0
+	migrated_types = []
+	valid = True
+
+	def update(self, old_msg, new_msg):
+		new_msg = old_msg

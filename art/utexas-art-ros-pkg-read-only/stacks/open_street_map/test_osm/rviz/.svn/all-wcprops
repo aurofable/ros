@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2433/trunk/stacks/open_street_map/test_osm/rviz
+END
+prc.vcg
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2420/trunk/stacks/open_street_map/test_osm/rviz/prc.vcg
+END
+small-screen-prc.vcg
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2433/trunk/stacks/open_street_map/test_osm/rviz/small-screen-prc.vcg
+END
+prc-local.vcg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2427/trunk/stacks/open_street_map/test_osm/rviz/prc-local.vcg
+END

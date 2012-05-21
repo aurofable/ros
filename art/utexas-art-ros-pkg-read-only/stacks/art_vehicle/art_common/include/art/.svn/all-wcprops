@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1876/trunk/stacks/art_vehicle/art_common/include/art
+END
+epsilon.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/630/trunk/stacks/art_vehicle/art_common/include/art/epsilon.h
+END
+infinity.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/630/trunk/stacks/art_vehicle/art_common/include/art/infinity.h
+END
+error.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/630/trunk/stacks/art_vehicle/art_common/include/art/error.h
+END
+frames.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1774/trunk/stacks/art_vehicle/art_common/include/art/frames.h
+END
+pid2.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1539/trunk/stacks/art_vehicle/art_common/include/art/pid2.h
+END
+steering.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/630/trunk/stacks/art_vehicle/art_common/include/art/steering.h
+END
+DARPA_rules.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/630/trunk/stacks/art_vehicle/art_common/include/art/DARPA_rules.h
+END
+polynomial.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/630/trunk/stacks/art_vehicle/art_common/include/art/polynomial.h
+END
+filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/630/trunk/stacks/art_vehicle/art_common/include/art/filter.h
+END
+UTM.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1876/trunk/stacks/art_vehicle/art_common/include/art/UTM.h
+END
+conversions.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/630/trunk/stacks/art_vehicle/art_common/include/art/conversions.h
+END

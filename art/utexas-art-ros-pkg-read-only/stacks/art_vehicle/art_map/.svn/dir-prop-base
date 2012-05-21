@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 77
+*.kml
+*.ppm
+.build_version
+.rosgcov_files
+TAGS
+bin
+build
+deps.gv
+lib
+msg_gen
+
+END

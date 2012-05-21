@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2105/trunk/stacks/velodyne_utils/velodyne_height_map/src
+END
+heightmap_nodelet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2098/trunk/stacks/velodyne_utils/velodyne_height_map/src/heightmap_nodelet.cpp
+END
+heightmap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2102/trunk/stacks/velodyne_utils/velodyne_height_map/src/heightmap.cpp
+END
+heightmap_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2098/trunk/stacks/velodyne_utils/velodyne_height_map/src/heightmap_node.cpp
+END

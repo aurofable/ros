@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/svn/!svn/ver/2433/trunk
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/.gitignore
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/.gitattributes
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/125/trunk/README
+END

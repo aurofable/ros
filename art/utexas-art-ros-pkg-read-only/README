@@ -1,0 +1,100 @@
+
+                          utexas-art-ros-pkg
+              Robot Operating System package repository
+
+                             Jack O'Quin
+                             10 Apr. 2010
+
+
+The stacks directory contains initial versions of several ROS stacks,
+each with one or more ROS packages containing experimental versions of
+ART software converted to use ROS instead of player.  Documentation
+for these packages is here:
+
+  http://www.ros.org/wiki/utexas-art-ros-pkg
+
+Working with the ROS build system is difficult at first.  Expect a
+steep learning curve.  Working through some of the ROS tutorials is
+definitely worthwhile when starting out.  Documentation:
+
+  http://www.ros.org/wiki/ROS.
+
+The interfaces themselves are quite good.  So are the visualization
+and debugging tools.  And, there is an impressive amount of useful
+robotics software already available in the ROS package system.
+
+
+Directions:
+
+ (1) Check out a copy of the ART code base with ROS interfaces
+
+     Our packages have their own Google code project tree now.  Check
+     out the trunk in ~/svn/utexas-art-ros-pkg:
+
+     $ cd
+     $ mkdir svn
+     $ cd ~/svn
+     $ export ART=http://utexas-art-ros-pkg.googlecode.com/svn
+     $ svn co $ART/trunk utexas-art-ros-pkg
+
+     This creates a copy of the source tree without commit access.
+
+     To commit changes yourself, create a google account and e-mail
+     the project owners requesting commit access.  Then, check out an
+     editable copy following these directions:
+
+       http://code.google.com/p/utexas-art-ros-pkg/source/checkout
+
+ (2a)[for UT CS systems]
+
+     Set up ROS environment pointing to the shared install:
+
+     $ cd ~/svn/utexas-art-ros-pkg
+     $ bash etc/utcs-env.sh >> ~/.bashrc
+
+ (2b)[for individually-maintained systems]
+
+     Install ROS as in http://www.ros.org/wiki/ROS/Installation
+
+     This is time-consuming, but not especially difficult.  Be careful
+     to follow the directions exactly.  It works fine on Ubuntu and
+     can be made to work for Mac OSX with some effort.  Windows will
+     probably not work, but there are future plans to support it.
+
+     Add the ROS environment setup to the end of your .bashrc:
+
+     $ echo "source ~/ros/setup.sh" >> ~/.bashrc
+
+     Append our packages as well as the ROS ones (this example does it
+     from the shell, or you can use any editor):
+
+     $ cat <<'EOF' >> ~/.bashrc
+     export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:~/svn/utexas-art-ros-pkg
+     EOF
+
+ (3) If you want to run ART robot utility scripts directly from the
+     shell, add this to your .bashrc:
+
+     $ cat <<'EOF' >> ~/.bashrc
+
+     ART_RUN=`rospack find art_run`
+     if [ "$ART_RUN" != "" ] && [ -d $ART_RUN/bin ]
+     then export PATH=$ART_RUN/bin:$PATH
+     fi
+     EOF
+
+ (4) Log out and log back in.
+
+ (5) Try to run some ROS commands:
+
+     $ rospack find velodyne_common
+     $ roscd velodyne_common
+     $ rosmake velodyne
+
+     This should compile cleanly.
+
+ (6) There is a rosemacs package, highly recommended for serious
+     software development on Linux or Unix. To get it working, I have
+     to start emacs from a shell.  I do not know how to start it from
+     the GNOME panel icon with all the required environment variables
+     set.

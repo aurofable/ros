@@ -1,0 +1,11 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+This package contains launch files for running and monitoring the
+vehicle.  There are also .yaml files for parameters to use when
+launching various system components.
+
+See the ros.org Wiki documentation for documentation and examples.
+
+*/

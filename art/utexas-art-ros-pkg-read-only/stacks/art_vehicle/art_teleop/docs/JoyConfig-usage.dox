@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="joy_teleop.py" pkg="art_teleop" type="joy_teleop.py">
+  <param name="max_accel" type="double" value="10.0" />
+  <param name="limit_forward" type="double" value="6.0" />
+  <param name="limit_reverse" type="double" value="3.0" />
+  <param name="use_navigator" type="bool" value="True" />
+</node>
+\endverbatim
+

@@ -1,0 +1,19 @@
+# UDEV commands for ART vehicle
+# NOTE: set "8250.nr_uarts=8" on kernel command line (in GRUB)
+
+# serial on motherboard
+KERNEL=="ttyS0",	SYMLINK="ioadr8x"
+
+# USB 4-port
+KERNEL=="ttyUSB0",	SYMLINK="shifter"
+KERNEL=="ttyUSB1",	SYMLINK="steering"
+KERNEL=="ttyUSB2",	SYMLINK="brake"
+KERNEL=="ttyUSB3",	SYMLINK="throttle"
+
+# USB 422 ports
+KERNEL=="ttyUSB4",	SYMLINK="laser_front"
+KERNEL=="ttyUSB5",	SYMLINK="laser_rear"
+
+# grant raw 1394 bus permissions to video group
+# (NOTE: this is insecure with 1394 disks attached)
+KERNEL=="raw1394", GROUP="video"
